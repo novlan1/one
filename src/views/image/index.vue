@@ -78,7 +78,7 @@ const imageInfo = ref<{
 });
 
 
-const updateQuery = (info) => {
+const updateQuery = (info: Record<string, string | number>) => {
   const newUrl = extendUrlParams(window.location.href, info, true);
   window.history.replaceState(history.state, '', newUrl);
 };
