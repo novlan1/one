@@ -40,6 +40,7 @@
       v-model:pageSize="imageInfo.pageSize"
       class=""
       :total="imageInfo.total"
+      :page-size-options="[5, 10, 20, 50, 80, 120, 200, 500, 1000]"
       @change="onChange"
       @page-size-change="onPageSizeChange"
       @current-change="onCurrentChange"
