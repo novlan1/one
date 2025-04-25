@@ -11,6 +11,9 @@ importers:
       axios:
         specifier: ^1.8.4
         version: 1.8.4
+      cheerio:
+        specifier: ^1.0.0
+        version: 1.0.0
       ebus-light:
         specifier: ^0.0.2
         version: 0.0.2

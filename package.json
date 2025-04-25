@@ -10,10 +10,12 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
-    "docs:build": "npm run build"
+    "docs:build": "npm run build",
+    "fetch:new": "node script/fetch-new-data"
   },
   "dependencies": {
     "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
     "ebus-light": "^0.0.2",
     "pinia": "^3.0.1",
     "press-next": "^1.0.27",

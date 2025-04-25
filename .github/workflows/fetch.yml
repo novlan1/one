@@ -1,0 +1,49 @@
+name: 'Fetch Data'
+
+env:
+  TZ: Asia/Shanghai
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 6,12 * * *'
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20]
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install pnpm
+        run: npm install -g pnpm@9
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: 'Get Weather'
+        run: npm run fetch:new
+
+      - name: 'Get Date'
+        # run: ACTIONS_ALLOW_UNSECURE_COMMANDS=true;echo "::set-env name=REPORT_DATE::"
+        run: echo "REPORT_DATE=$(TZ=':Asia/Shenzhen' date '+%Y-%m-%d %T')" >> $GITHUB_ENV
+
+      - name: Commit and Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}  # 自动使用内置Token
+          branch: master
+          force: false  # 避免强制覆盖
+          commit_message: "Fetch New Data ${{ env.REPORT_DATE }}"
