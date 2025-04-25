@@ -2,13 +2,11 @@ const https = require('https');
 const path = require('path');
 
 const cheerio = require('cheerio');
-const { writeFileSync, timeStampFormat } = require('t-comm');
+const { writeFileSync, readFileSync, timeStampFormat } = require('t-comm');
 
 
 const ONE_PREFIX = 'https://wufazhuce.com/one/';
 const ONE_DATA_JSON_PATH = path.resolve(__dirname, '../src/logic/config/one-data.json');
-
-const oneDataList = require(ONE_DATA_JSON_PATH);
 
 
 // 链接无序，但是不会偏离太远
@@ -25,6 +23,7 @@ const getLinkIndex = url => +url.split('--')[2];
 
 
 function getLastLinkIndex() {
+  const oneDataList = readFileSync(ONE_DATA_JSON_PATH, true);
   oneDataList.sort((a, b) => {
     const aIndex = getVol(a.picName);
     const bIndex = getVol(b.picName);
@@ -119,6 +118,8 @@ async function main() {
 
 function updateOneDataJson(info) {
   const { pic, text, vol, linkIndex, month, date } = info;
+
+  const oneDataList = readFileSync(ONE_DATA_JSON_PATH, true);
   const parsedDate = timeStampFormat(new Date(`${date} ${month}`).getTime(), 'yyyy-MM-dd');
   const parsedInfo = {
     pic,

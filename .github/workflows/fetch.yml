@@ -8,7 +8,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '0 6,12 * * *'
+    - cron: '0 6,8,12 * * *'
 
 jobs:
   bot:
@@ -38,7 +38,7 @@ jobs:
 
       - name: 'Get Date'
         # run: ACTIONS_ALLOW_UNSECURE_COMMANDS=true;echo "::set-env name=REPORT_DATE::"
-        run: echo "REPORT_DATE=$(TZ=':Asia/Shenzhen' date '+%Y-%m-%d %T')" >> $GITHUB_ENV
+        run: echo "REPORT_DATE=$(TZ=':Asia/Shanghai' date '+%Y-%m-%d %T')" >> $GITHUB_ENV
 
       - name: Commit and Push
         uses: actions-js/push@master
@@ -48,4 +48,4 @@ jobs:
           author_email: '1576271227@qq.com'
           author_name: 'novlan1'
           force: false  # 避免强制覆盖
-          message: "feat: fetch New Data ${{ env.REPORT_DATE }}"
+          message: "feat: fetch new data ${{ env.REPORT_DATE }}"
