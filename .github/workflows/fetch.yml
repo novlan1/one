@@ -41,9 +41,11 @@ jobs:
         run: echo "REPORT_DATE=$(TZ=':Asia/Shenzhen' date '+%Y-%m-%d %T')" >> $GITHUB_ENV
 
       - name: Commit and Push
-        uses: actions4git/add-commit-push@v1
+        uses: actions-js/push@master
         with:
-          # github_token: ${{ secrets.ACCESS_TOKEN }}  # 自动使用内置Token
-          # branch: master
-          push-force: false  # 避免强制覆盖
-          commit_message: "feat: fetch New Data ${{ env.REPORT_DATE }}"
+          github_token: ${{ secrets.ACCESS_TOKEN }}  # 自动使用内置Token
+          branch: master
+          author_email: '1576271227@qq.com'
+          author_name: 'novlan1'
+          force: false  # 避免强制覆盖
+          message: "feat: fetch New Data ${{ env.REPORT_DATE }}"
