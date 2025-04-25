@@ -33,7 +33,7 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: 'Get Weather'
+      - name: 'Get New Data'
         run: npm run fetch:new
 
       - name: 'Get Date'
@@ -41,9 +41,9 @@ jobs:
         run: echo "REPORT_DATE=$(TZ=':Asia/Shenzhen' date '+%Y-%m-%d %T')" >> $GITHUB_ENV
 
       - name: Commit and Push
-        uses: ad-m/github-push-action@master
+        uses: actions4git/add-commit-push@v1
         with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}  # 自动使用内置Token
-          branch: master
-          force: false  # 避免强制覆盖
-          commit_message: "Fetch New Data ${{ env.REPORT_DATE }}"
+          # github_token: ${{ secrets.ACCESS_TOKEN }}  # 自动使用内置Token
+          # branch: master
+          push-force: false  # 避免强制覆盖
+          commit_message: "feat: fetch New Data ${{ env.REPORT_DATE }}"
