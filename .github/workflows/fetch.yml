@@ -2,7 +2,8 @@ name: 'Fetch Data'
 
 on:
   schedule:
-    - cron: '49 4 * * *'
+    # UTC 时间，并非北京时间
+    - cron: '0 0,4,6,23 * * *'
 
 jobs:
   bot:
