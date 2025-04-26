@@ -1,14 +1,8 @@
 name: 'Fetch Data'
 
-env:
-  TZ: Asia/Shanghai
-
 on:
-  push:
-    branches:
-      - master
   schedule:
-    - cron: '0 6,8,12 * * *'
+    - cron: '49 4 * * *'
 
 jobs:
   bot:
