@@ -11,7 +11,7 @@ const ONE_DATA_JSON_PATH = path.resolve(__dirname, '../src/logic/config/one-data
 
 // 链接无序，但是不会偏离太远
 // 以上一次链接为基准，从下面区间找
-const MORE_VOL_NUM = [-10, 10];
+const MORE_VOL_NUM = [-100, 100];
 
 
 function getInnerText(info) {
