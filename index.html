@@ -13,6 +13,7 @@
 
   <script src="https://tam.cdn-go.cn/aegis-sdk/latest/aegis.min.js"></script>
   <script>
+    console.log('Aegis', window.Aegis);
     if (typeof Aegis === 'function') {
       var aegis = new Aegis({
         id: 'gQnLDfg0GeXvKQ2rq7', // 上报 id
@@ -22,6 +23,7 @@
         spa: true, // spa 应用页面跳转的时候开启 pv 计算
         hostUrl: 'https://rumt-zh.com'
       });
+      console.log('aegis', window.aegis);
     }
   </script>
 </head>
