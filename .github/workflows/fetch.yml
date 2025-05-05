@@ -28,8 +28,11 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
+      - name: Extra Install
+        run: pnpm run extra:install
+
       - name: 'Get New Data'
-        run: npm run fetch:new
+        run: pnpm run fetch:new
 
       - name: 'Get Date'
         # run: ACTIONS_ALLOW_UNSECURE_COMMANDS=true;echo "::set-env name=REPORT_DATE::"
