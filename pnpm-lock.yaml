@@ -17,6 +17,9 @@ importers:
       ebus-light:
         specifier: ^0.0.2
         version: 0.0.2
+      mime-light:
+        specifier: ^4.0.2
+        version: 4.0.2
       pinia:
         specifier: ^3.0.1
         version: 3.0.2(typescript@5.5.4)(vue@3.5.13(typescript@5.5.4))
@@ -35,6 +38,9 @@ importers:
       press-shared:
         specifier: ^0.0.9
         version: 0.0.9(element-plus@2.9.9(vue@3.5.13(typescript@5.5.4)))(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4))
+      press-swiper:
+        specifier: ^2.2.8
+        version: 2.2.8
       press-tdesign-vue-next:
         specifier: ^0.0.36
         version: 0.0.36(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4))
@@ -5251,6 +5257,11 @@ packages:
     resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
     engines: {node: '>= 0.6'}
 
+  mime-light@4.0.2:
+    resolution: {integrity: sha512-d5e15a31WBtCEExof6CbEjDo8z50bpyzaQOcK58KNCcWLetvD4UWzgbOx3lRxgjk6NBlRN2XkfMIZ2chLGIwbw==}
+    engines: {node: '>=16'}
+    hasBin: true
+
   mime-types@2.1.35:
     resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
     engines: {node: '>= 0.6'}
@@ -6008,6 +6019,10 @@ packages:
       element-plus: ^2.2.0
       tdesign-vue-next: '*'
       vue: ^3.2.0
+
+  press-swiper@2.2.8:
+    resolution: {integrity: sha512-l4wiQc/Dr5Es7WMLtlb9ovqLS2EcRB8/bkAjF6Nr6ntqptnkZyFBXFQmTZWWXLYV2beGlHx6Np/hkXzTH6x9mg==}
+    engines: {HBuilderX: ^3.1.0}
 
   press-tdesign-vue-next@0.0.36:
     resolution: {integrity: sha512-ATaxVFNVrulBx/CciK8HVDtN6m/S3IDnVHkvMerHcQBJ2sQYwBvKbvuXnfyELLKcY63pa/VnkTwnKgEl0LTpvQ==}
@@ -14015,6 +14030,8 @@ snapshots:
 
   mime-db@1.52.0: {}
 
+  mime-light@4.0.2: {}
+
   mime-types@2.1.35:
     dependencies:
       mime-db: 1.52.0
@@ -14816,6 +14833,8 @@ snapshots:
       lodash: 4.17.21
       tdesign-vue-next: 1.11.5(vue@3.5.13(typescript@5.5.4))
       vue: 3.5.13(typescript@5.5.4)
+
+  press-swiper@2.2.8: {}
 
   press-tdesign-vue-next@0.0.36(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4)):
     dependencies:
