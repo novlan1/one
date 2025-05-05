@@ -32,6 +32,9 @@ jobs:
 
       - name: Install Dependencies
         run: pnpm install
+        
+      - name: Extra Install
+        run: pnpm run extra:install
 
       # 生成静态文件
       - name: Build
