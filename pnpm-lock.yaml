@@ -24,11 +24,11 @@ importers:
         specifier: ^3.0.1
         version: 3.0.2(typescript@5.5.4)(vue@3.5.13(typescript@5.5.4))
       press-element-plus:
-        specifier: ^0.0.9
-        version: 0.0.9(element-plus@2.9.9(vue@3.5.13(typescript@5.5.4)))(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4))
+        specifier: ^1.0.0
+        version: 1.0.0(element-plus@2.9.9(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4))
       press-hooks:
-        specifier: ^0.0.9
-        version: 0.0.9(element-plus@2.9.9(vue@3.5.13(typescript@5.5.4)))(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4))
+        specifier: ^1.0.0
+        version: 1.0.0
       press-next:
         specifier: ^1.0.27
         version: 1.0.27(press-ui@3.0.9)
@@ -36,14 +36,14 @@ importers:
         specifier: ^1.8.8
         version: 1.8.8(press-ui@3.0.9)
       press-shared:
-        specifier: ^0.0.9
-        version: 0.0.9(element-plus@2.9.9(vue@3.5.13(typescript@5.5.4)))(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4))
+        specifier: ^1.0.2
+        version: 1.0.2
       press-swiper:
         specifier: ^2.2.8
         version: 2.2.8
       press-tdesign-vue-next:
-        specifier: ^0.0.36
-        version: 0.0.36(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4))
+        specifier: ^0.0.40
+        version: 0.0.40(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))
       press-ui:
         specifier: ^3.0.9
         version: 3.0.9
@@ -5992,19 +5992,13 @@ packages:
     resolution: {integrity: sha512-s/46sYeylUfHNjI+sA/78FAHlmIuKqI9wNnzEOGehAlUUYeObv5C2mOinXBjyUyWmJ2SfcS2/ydApH4hTF4WXQ==}
     engines: {node: '>=0.10.0'}
 
-  press-element-plus@0.0.9:
-    resolution: {integrity: sha512-FW5QmkL4kSNo5Zj++QapwhGCrBQJ1YXEKG9IXDDFtqzwLUvyQvohFCTUE7JvWOHEaqq6Aywl5/yvD10xsyKdZA==}
+  press-element-plus@1.0.0:
+    resolution: {integrity: sha512-Fa1x+xyKEXpmit0HF68kfWtRWJWVfooy8iA8Cza0oxmf3E3lSm2L+goqSsVHsQvpSLaTUogv4qhLs3O5Yrc26A==}
     peerDependencies:
       element-plus: ^2.2.0
-      tdesign-vue-next: '*'
-      vue: ^3.2.0
 
-  press-hooks@0.0.9:
-    resolution: {integrity: sha512-Kpk6hWypcl1tQz0GpgsOR+jhXOMR4Dw4NPaBPQGrj99pZ7PX68m7Or/Ijsm2ELynEo6UvBV28+/UldCZVUcpxA==}
-    peerDependencies:
-      element-plus: ^2.2.0
-      tdesign-vue-next: '*'
-      vue: ^3.2.0
+  press-hooks@1.0.0:
+    resolution: {integrity: sha512-GmLwCJxGghtK6OWzJp6W3PulRdmmR16UwUbUWSegNwb6gIzu6l6CZqVyvA56lnUJlvWrlT0VZwbXkg3mNpBTAw==}
 
   press-next@1.0.27:
     resolution: {integrity: sha512-tBMZxWvYtTY/Bio0XXZlD0RdT9rieBxqFKnd7VJSeDUg2TC5rUGniJP9jcLlEu2CSm7VesTnZaGg0oWsEeIWUA==}
@@ -6016,22 +6010,17 @@ packages:
     peerDependencies:
       press-ui: ^2.1.22
 
-  press-shared@0.0.9:
-    resolution: {integrity: sha512-PEnwLwaWZT5wPC+9ANjv5il8HOHzLDeV0q+inh3t9QiBXVx4s1NBTLcqlQfPhsn4uyg3NtI4mapf3/GhjboITw==}
-    peerDependencies:
-      element-plus: ^2.2.0
-      tdesign-vue-next: '*'
-      vue: ^3.2.0
+  press-shared@1.0.2:
+    resolution: {integrity: sha512-HsnYu6FbcEkFSt6gS2Tyxnmn+lc/wyjI/s5VR5jJYtkc9RSihDGoxB/XuK8SGrfmPq+4H+NibI7uy3Ljzv1txg==}
 
   press-swiper@2.2.8:
     resolution: {integrity: sha512-l4wiQc/Dr5Es7WMLtlb9ovqLS2EcRB8/bkAjF6Nr6ntqptnkZyFBXFQmTZWWXLYV2beGlHx6Np/hkXzTH6x9mg==}
     engines: {HBuilderX: ^3.1.0}
 
-  press-tdesign-vue-next@0.0.36:
-    resolution: {integrity: sha512-ATaxVFNVrulBx/CciK8HVDtN6m/S3IDnVHkvMerHcQBJ2sQYwBvKbvuXnfyELLKcY63pa/VnkTwnKgEl0LTpvQ==}
+  press-tdesign-vue-next@0.0.40:
+    resolution: {integrity: sha512-4vEAnGAurEnikw+m/TA1Hsi1hemj+vEDEvOYhIY0BjVjg+CM9LqA4aZQZLiGtMlrNRzP6yCRIhgevp+zodD1oQ==}
     peerDependencies:
       tdesign-vue-next: '*'
-      vue: ^3.2.0
 
   press-ui-next@0.0.18:
     resolution: {integrity: sha512-mYf6LpblTFyW/YXMpFYcG9Csz5s/xbtigj7twO0Q5Dh+FRTk4a3UpyYooKIX+5v4dG09CtpQr38XLgzcwEzCKg==}
@@ -10314,7 +10303,7 @@ snapshots:
     dependencies:
       rfdc: 1.4.1
 
-  '@vue/eslint-config-standard@8.0.1(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-typescript@2.7.1)(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)':
+  '@vue/eslint-config-standard@8.0.1(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)':
     dependencies:
       eslint: 8.57.1
       eslint-config-standard: 17.1.0(eslint-plugin-import@2.26.0)(eslint-plugin-n@15.7.0(eslint@8.57.1))(eslint-plugin-promise@6.6.0(eslint@8.57.1))(eslint@8.57.1)
@@ -12082,7 +12071,7 @@ snapshots:
       '@babel/eslint-parser': 7.27.0(@babel/core@7.26.10)(eslint@8.57.1)
       '@babel/preset-react': 7.26.3(@babel/core@7.26.10)
       '@stylistic/eslint-plugin-jsx': 3.1.0(eslint@8.57.1)
-      '@vue/eslint-config-standard': 8.0.1(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-typescript@2.7.1)(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)
+      '@vue/eslint-config-standard': 8.0.1(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)
       '@vue/eslint-config-typescript': 12.0.0(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)(typescript@5.5.4)
       eslint: 8.57.1
       eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.26.0)(eslint@8.57.1)
@@ -12114,7 +12103,7 @@ snapshots:
       '@typescript-eslint/parser': 5.62.0(eslint@8.57.1)(typescript@5.5.4)
       '@vue/eslint-config-typescript': 12.0.0(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)(typescript@5.5.4)
       eslint: 8.57.1
-      eslint-config-rookie: 1.0.4(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1)
+      eslint-config-rookie: 1.0.4(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
       eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1)
       eslint-plugin-import: 2.26.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
       eslint-plugin-jest: 26.9.0(@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4)
@@ -12133,7 +12122,7 @@ snapshots:
     dependencies:
       eslint: 8.57.1
 
-  eslint-config-rookie@1.0.4(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1):
+  eslint-config-rookie@1.0.4(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1):
     dependencies:
       '@babel/core': 7.26.10
       '@babel/eslint-parser': 7.27.0(@babel/core@7.26.10)(eslint@8.57.1)
@@ -12194,7 +12183,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -12205,7 +12194,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -12230,7 +12219,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
       has: 1.0.4
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -12253,7 +12242,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint@8.57.1)
       has: 1.0.4
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -14819,21 +14808,17 @@ snapshots:
 
   preserve@0.2.0: {}
 
-  press-element-plus@0.0.9(element-plus@2.9.9(vue@3.5.13(typescript@5.5.4)))(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4)):
+  press-element-plus@1.0.0(element-plus@2.9.9(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4)):
     dependencies:
       '@element-plus/icons-vue': 2.3.1(vue@3.5.13(typescript@5.5.4))
       element-plus: 2.9.9(vue@3.5.13(typescript@5.5.4))
       lodash: 4.17.21
-      tdesign-vue-next: 1.11.5(vue@3.5.13(typescript@5.5.4))
-      vue: 3.5.13(typescript@5.5.4)
+      press-hooks: 1.0.0
+      press-shared: 1.0.2
+    transitivePeerDependencies:
+      - vue
 
-  press-hooks@0.0.9(element-plus@2.9.9(vue@3.5.13(typescript@5.5.4)))(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4)):
-    dependencies:
-      '@element-plus/icons-vue': 2.3.1(vue@3.5.13(typescript@5.5.4))
-      element-plus: 2.9.9(vue@3.5.13(typescript@5.5.4))
-      lodash: 4.17.21
-      tdesign-vue-next: 1.11.5(vue@3.5.13(typescript@5.5.4))
-      vue: 3.5.13(typescript@5.5.4)
+  press-hooks@1.0.0: {}
 
   press-next@1.0.27(press-ui@3.0.9):
     dependencies:
@@ -14849,20 +14834,13 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  press-shared@0.0.9(element-plus@2.9.9(vue@3.5.13(typescript@5.5.4)))(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4)):
-    dependencies:
-      '@element-plus/icons-vue': 2.3.1(vue@3.5.13(typescript@5.5.4))
-      element-plus: 2.9.9(vue@3.5.13(typescript@5.5.4))
-      lodash: 4.17.21
-      tdesign-vue-next: 1.11.5(vue@3.5.13(typescript@5.5.4))
-      vue: 3.5.13(typescript@5.5.4)
+  press-shared@1.0.2: {}
 
   press-swiper@2.2.8: {}
 
-  press-tdesign-vue-next@0.0.36(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))(vue@3.5.13(typescript@5.5.4)):
+  press-tdesign-vue-next@0.0.40(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4))):
     dependencies:
       tdesign-vue-next: 1.11.5(vue@3.5.13(typescript@5.5.4))
-      vue: 3.5.13(typescript@5.5.4)
 
   press-ui-next@0.0.18(vue@3.5.13(typescript@5.5.4)):
     dependencies:
