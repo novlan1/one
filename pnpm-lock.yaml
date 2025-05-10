@@ -31,10 +31,10 @@ importers:
         version: 1.0.0
       press-next:
         specifier: ^1.0.27
-        version: 1.0.27(press-ui@3.0.9)
+        version: 1.0.27(press-ui@3.0.10)
       press-plus:
         specifier: ^1.8.8
-        version: 1.8.8(press-ui@3.0.9)
+        version: 1.8.8(press-ui@3.0.10)
       press-shared:
         specifier: ^1.0.2
         version: 1.0.2
@@ -45,8 +45,8 @@ importers:
         specifier: ^0.0.40
         version: 0.0.40(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))
       press-ui:
-        specifier: ^3.0.9
-        version: 3.0.9
+        specifier: ^3.0.10
+        version: 3.0.10
       press-ui-next:
         specifier: ^0.0.18
         version: 0.0.18(vue@3.5.13(typescript@5.5.4))
@@ -60,8 +60,8 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1
       t-comm:
-        specifier: ^1.5.20
-        version: 1.5.20
+        specifier: ^1.5.24
+        version: 1.5.24
       tdesign-icons-vue-next:
         specifier: ^0.3.5
         version: 0.3.5(vue@3.5.13(typescript@5.5.4))
@@ -6031,8 +6031,8 @@ packages:
     resolution: {integrity: sha512-nLBlEDh1XKHXO/5qBkk3VSlxWImm9SY628n2c5YEpURpwyS8vqANYhztJKPMpkhvWYPTkGD3plNkT1LqRSqWXw==}
     engines: {node: '>=14'}
 
-  press-ui@3.0.9:
-    resolution: {integrity: sha512-bO8DykbaKXqwxuY1Ek5fJrqh0KGvZklkrpbP1AC25c8zrm7+s4aahTWotwjmlwmOR6bg7OTsIP/lAEUbjqWMnA==}
+  press-ui@3.0.10:
+    resolution: {integrity: sha512-GsbH+aFY4xPeZr1yIza+sRTMz3Wojpny/riYw6Y61C9k2TSSucV2eZDtokHx8wJDGhySLconeb701ZgEvVfPDQ==}
     engines: {node: '>=14'}
 
   prettier-linter-helpers@1.0.0:
@@ -6873,8 +6873,8 @@ packages:
   systemjs@6.15.1:
     resolution: {integrity: sha512-Nk8c4lXvMB98MtbmjX7JwJRgJOL8fluecYCfCeYBznwmpOs8Bf15hLM6z4z71EDAhQVrQrI+wt1aLWSXZq+hXA==}
 
-  t-comm@1.5.20:
-    resolution: {integrity: sha512-YZthr7agnY93WfJ/xyK7LQ1YOCbJBEBSFc9Mqc7gnXBZHfVShFrVWgiZZV4n/H4fDGgCeRlf78fhWwBOoHc/0w==}
+  t-comm@1.5.24:
+    resolution: {integrity: sha512-oXEYGSxvAeYHLi0+XPlwHTxInfj+wJw1KdDB8Lyg73exM/RtQbXolMck7n8BvsbAnr2Z0HSxQCMCay4x/BeLEQ==}
     hasBin: true
 
   table@6.9.0:
@@ -8886,7 +8886,7 @@ snapshots:
 
   '@plugin-light/import-meta-resolve@0.0.2':
     dependencies:
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -8944,7 +8944,7 @@ snapshots:
       rollup-plugin-esbuild: 6.2.1(esbuild@0.25.2)(rollup@2.79.2)
       rollup-plugin-external-globals: 0.13.0(rollup@2.79.2)
       rollup-plugin-visualizer: 5.14.0(rollup@2.79.2)
-      t-comm: 1.5.20
+      t-comm: 1.5.24
       tailwindcss: 3.4.17
       vite: 6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1)
       vite-plugin-commonjs: 0.10.4
@@ -8996,7 +8996,7 @@ snapshots:
       chalk: 4.1.2
       progress-bar-webpack-plugin: 2.1.0(webpack@4.47.0)
       script-ext-html-webpack-plugin: 2.1.5(html-webpack-plugin@4.5.2(webpack@4.47.0))(webpack@4.47.0)
-      t-comm: 1.5.20
+      t-comm: 1.5.24
       uni-read-pages: 1.0.5
       webpack-bundle-analyzer: 3.9.0
       workbox-webpack-plugin: 6.6.0(webpack@4.47.0)
@@ -9025,7 +9025,7 @@ snapshots:
       '@vitejs/plugin-vue': 4.6.2(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
       '@vitejs/plugin-vue-jsx': 3.1.0(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
       rollup-plugin-visualizer: 5.14.0(rollup@2.79.2)
-      t-comm: 1.5.20
+      t-comm: 1.5.24
       unplugin-auto-import: 0.18.6(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)
       unplugin-vue-components: 0.27.5(@babel/parser@7.27.1)(rollup@2.79.2)(vue@3.5.13(typescript@5.5.4))
       vite-plugin-cdn-import: 0.3.5(rollup@2.79.2)
@@ -9059,7 +9059,7 @@ snapshots:
       '@plugin-light/webpack-plugin-modify-html': 0.0.4
       filemanager-webpack-plugin: 2.0.5
       prerender-spa-plugin: 3.4.0
-      t-comm: 1.5.20
+      t-comm: 1.5.24
       webpack-bundle-analyzer: 3.9.0
       webpack-hooks-shellscripts: 1.0.2
       workbox-webpack-plugin: 6.6.0(webpack@4.47.0)
@@ -9090,31 +9090,31 @@ snapshots:
 
   '@plugin-light/shared@0.0.11':
     dependencies:
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/shared@0.0.14':
     dependencies:
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/shared@0.0.18':
     dependencies:
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/shared@0.0.19':
     dependencies:
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/shared@0.0.20':
     dependencies:
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -9133,14 +9133,14 @@ snapshots:
   '@plugin-light/vite-plugin-alias-for-library@0.0.7':
     dependencies:
       '@plugin-light/shared': 0.0.11
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/vite-plugin-analyze-bundle-file-size@0.0.3':
     dependencies:
       '@plugin-light/shared': 0.0.18
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -9171,7 +9171,7 @@ snapshots:
       '@babel/traverse': 7.27.1
       '@babel/types': 7.27.1
       '@plugin-light/shared': 0.0.19
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -9185,7 +9185,7 @@ snapshots:
   '@plugin-light/vite-plugin-gen-mp-qq-app-id@0.0.6':
     dependencies:
       '@plugin-light/shared': 0.0.11
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -9218,7 +9218,7 @@ snapshots:
     dependencies:
       '@plugin-light/shared': 0.0.11
       '@plugin-light/webpack-plugin-rem-to-rpx': 0.0.4
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -9254,7 +9254,7 @@ snapshots:
       '@plugin-light/shared': 0.0.11
       '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9300,7 +9300,7 @@ snapshots:
       '@plugin-light/shared': 0.0.11
       '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9310,7 +9310,7 @@ snapshots:
       '@plugin-light/shared': 0.0.11
       '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9318,7 +9318,7 @@ snapshots:
   '@plugin-light/webpack-loader-publish@0.0.7':
     dependencies:
       '@plugin-light/shared': 0.0.14
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -9335,7 +9335,7 @@ snapshots:
       '@plugin-light/shared': 0.0.11
       '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9345,7 +9345,7 @@ snapshots:
       '@plugin-light/shared': 0.0.11
       '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9371,7 +9371,7 @@ snapshots:
     dependencies:
       '@plugin-light/shared': 0.0.11
       '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9421,7 +9421,7 @@ snapshots:
       '@plugin-light/shared-vue2': 0.0.8(vue-template-compiler@2.6.14)
       '@plugin-light/webpack-plugin-add-common-vendor': 0.0.4
       '@plugin-light/webpack-plugin-dispatch-vue': 0.0.6(vue-template-compiler@2.6.14)
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9430,7 +9430,7 @@ snapshots:
     dependencies:
       '@plugin-light/shared': 0.0.11
       '@plugin-light/webpack-plugin-fix-npm-package': 0.0.5
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -9439,7 +9439,7 @@ snapshots:
       '@plugin-light/shared': 0.0.19
       '@plugin-light/shared-vue2': 0.0.8(vue-template-compiler@2.6.14)
       '@plugin-light/webpack-plugin-fix-npm-package': 0.0.5
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9447,7 +9447,7 @@ snapshots:
   '@plugin-light/webpack-plugin-fix-import-path@0.0.4':
     dependencies:
       '@plugin-light/shared': 0.0.11
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -9466,14 +9466,14 @@ snapshots:
   '@plugin-light/webpack-plugin-gen-mp-plugin-playground@0.0.4':
     dependencies:
       '@plugin-light/shared': 0.0.11
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/webpack-plugin-gen-version@0.0.6':
     dependencies:
       '@plugin-light/shared': 0.0.19
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -9498,14 +9498,14 @@ snapshots:
   '@plugin-light/webpack-plugin-modify-html@0.0.4':
     dependencies:
       '@plugin-light/shared': 0.0.11
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/webpack-plugin-rem-to-rpx@0.0.4':
     dependencies:
       '@plugin-light/shared': 0.0.11
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -9519,7 +9519,7 @@ snapshots:
   '@plugin-light/webpack-plugin-transfer-local-file@0.0.4':
     dependencies:
       '@plugin-light/shared': 0.0.11
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -14820,17 +14820,17 @@ snapshots:
 
   press-hooks@1.0.0: {}
 
-  press-next@1.0.27(press-ui@3.0.9):
+  press-next@1.0.27(press-ui@3.0.10):
     dependencies:
-      press-ui: 3.0.9
-      t-comm: 1.5.20
+      press-ui: 3.0.10
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
-  press-plus@1.8.8(press-ui@3.0.9):
+  press-plus@1.8.8(press-ui@3.0.10):
     dependencies:
-      press-ui: 3.0.9
-      t-comm: 1.5.20
+      press-ui: 3.0.10
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -14851,7 +14851,7 @@ snapshots:
 
   press-ui@2.4.0: {}
 
-  press-ui@3.0.9: {}
+  press-ui@3.0.10: {}
 
   prettier-linter-helpers@1.0.0:
     dependencies:
@@ -15457,7 +15457,7 @@ snapshots:
 
   share-light@0.0.5:
     dependencies:
-      t-comm: 1.5.20
+      t-comm: 1.5.24
     transitivePeerDependencies:
       - debug
 
@@ -15980,7 +15980,7 @@ snapshots:
 
   systemjs@6.15.1: {}
 
-  t-comm@1.5.20:
+  t-comm@1.5.24:
     dependencies:
       '@babel/runtime': 7.27.0
       '@commitlint/config-conventional': 17.8.1
