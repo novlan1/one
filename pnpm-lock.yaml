@@ -30,8 +30,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       press-next:
-        specifier: ^1.0.59
-        version: 1.0.59(press-ui@5.0.12)
+        specifier: ^1.0.60
+        version: 1.0.60(press-ui@5.0.12)
       press-plus:
         specifier: ^1.8.10
         version: 1.8.10(press-ui@5.0.12)
@@ -5992,8 +5992,8 @@ packages:
   press-hooks@1.0.0:
     resolution: {integrity: sha512-GmLwCJxGghtK6OWzJp6W3PulRdmmR16UwUbUWSegNwb6gIzu6l6CZqVyvA56lnUJlvWrlT0VZwbXkg3mNpBTAw==}
 
-  press-next@1.0.59:
-    resolution: {integrity: sha512-MbR7qyLqXB514Y8AynAln0La3p9ELkndUWRdjgEj0qy/lZabYeql0fzX77SCvTLmah1bmM/+gWUrugSFeb6AGQ==}
+  press-next@1.0.60:
+    resolution: {integrity: sha512-CMZnAArL46BjUmK2QW39c4Lkd/yGsstnQsfAx51FJuKQgqyUK/jbNnOCN5a+Wg7bkBaSpH+T9og9kiJXYoOLNw==}
     peerDependencies:
       press-ui: ^2.0.12
 
@@ -14812,7 +14812,7 @@ snapshots:
 
   press-hooks@1.0.0: {}
 
-  press-next@1.0.59(press-ui@5.0.12):
+  press-next@1.0.60(press-ui@5.0.12):
     dependencies:
       press-ui: 5.0.12
       t-comm: 1.6.8
