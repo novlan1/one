@@ -15,8 +15,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       ebus-light:
-        specifier: ^0.0.2
-        version: 0.0.2
+        specifier: ^1.0.0
+        version: 1.0.0
       mime-light:
         specifier: ^4.0.2
         version: 4.0.2
@@ -30,11 +30,11 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       press-next:
-        specifier: ^1.0.60
-        version: 1.0.60(press-ui@5.0.12)
+        specifier: ^1.0.62
+        version: 1.0.62(press-ui@5.0.13)
       press-plus:
-        specifier: ^1.8.10
-        version: 1.8.10(press-ui@5.0.12)
+        specifier: ^1.8.17
+        version: 1.8.17(press-ui@5.0.13)
       press-shared:
         specifier: ^1.0.2
         version: 1.0.2
@@ -45,8 +45,8 @@ importers:
         specifier: ^0.0.40
         version: 0.0.40(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))
       press-ui:
-        specifier: ^5.0.12
-        version: 5.0.12
+        specifier: ^5.0.13
+        version: 5.0.13
       press-ui-next:
         specifier: ^0.0.18
         version: 0.0.18(vue@3.5.13(typescript@5.5.4))
@@ -54,14 +54,14 @@ importers:
         specifier: ^6.14.0
         version: 6.14.0
       share-light:
-        specifier: ^0.0.5
-        version: 0.0.5
+        specifier: ^1.0.0
+        version: 1.0.0
       swiper-next:
         specifier: ^0.1.1
         version: 0.1.1
       t-comm:
-        specifier: ^1.6.8
-        version: 1.6.8
+        specifier: ^1.6.10
+        version: 1.6.10
       tdesign-icons-vue-next:
         specifier: ^0.3.5
         version: 0.3.5(vue@3.5.13(typescript@5.5.4))
@@ -79,32 +79,32 @@ importers:
         version: 4.5.0(vue@3.5.13(typescript@5.5.4))
     devDependencies:
       '@plugin-light/import-meta-resolve':
-        specifier: ^0.0.2
-        version: 0.0.2
+        specifier: ^1.0.0
+        version: 1.0.0
       '@plugin-light/preprocess':
-        specifier: ^0.0.4
-        version: 0.0.4
+        specifier: ^1.0.0
+        version: 1.0.0
       '@plugin-light/project-config-uni-vite':
-        specifier: ^0.0.37
-        version: 0.0.37(esbuild@0.25.2)(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
+        specifier: ^1.0.0
+        version: 1.0.0(esbuild@0.25.2)(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
       '@plugin-light/project-config-uni-vue':
-        specifier: ^0.0.4
-        version: 0.0.4(html-webpack-plugin@4.5.2(webpack@4.47.0))(vue-template-compiler@2.6.14)(webpack@4.47.0)
+        specifier: ^1.0.0
+        version: 1.0.0(html-webpack-plugin@4.5.2(webpack@4.47.0))(vue-template-compiler@2.6.14)(webpack@4.47.0)
       '@plugin-light/project-config-vite':
         specifier: ^1.0.5
         version: 1.0.5(@babel/parser@7.27.1)(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
       '@plugin-light/project-config-vue':
-        specifier: ^0.0.11
-        version: 0.0.11(vue-template-compiler@2.6.14)(webpack@4.47.0)
+        specifier: ^1.0.0
+        version: 1.0.0(vue-template-compiler@2.6.14)(webpack@4.47.0)
       '@plugin-light/shared':
-        specifier: ^0.0.22
-        version: 0.0.22
+        specifier: ^1.0.0
+        version: 1.0.0
       '@plugin-light/shared-vue2':
-        specifier: ^0.0.8
-        version: 0.0.8(vue-template-compiler@2.6.14)
+        specifier: ^1.0.0
+        version: 1.0.0(vue-template-compiler@2.6.14)
       '@plugin-light/uni-read-pages-vite':
-        specifier: ^0.0.4
-        version: 0.0.4
+        specifier: ^1.0.0
+        version: 1.0.0
       '@stylistic/eslint-plugin-jsx':
         specifier: 3.1.0
         version: 3.1.0(eslint@8.57.1)
@@ -217,8 +217,8 @@ importers:
         specifier: '5.5'
         version: 5.5.4
       vconsole-helper:
-        specifier: ^0.0.4
-        version: 0.0.4
+        specifier: ^1.0.0
+        version: 1.0.0
       vite:
         specifier: ^6.2.4
         version: 6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1)
@@ -1292,39 +1292,37 @@ packages:
   '@plugin-light/import-meta-resolve@0.0.2':
     resolution: {integrity: sha512-fGuEA685aQWMx/gEOeuxPVwJj75opHZVPXaIhay9HvEdpmb13EtjFgkOBJ//C6XMYu5k22tPcJjoHruRjTix0g==}
 
-  '@plugin-light/postcss-plugin-remove-selector@0.0.5':
-    resolution: {integrity: sha512-8e0xjA4EJQtKlKUbnwoARvs2ukC573Pm6uFHk1pZKvH2fsy+IdTTL/wt7H2qpnU1UZ5OYZb5bQBZFivugaxr+w==}
+  '@plugin-light/import-meta-resolve@1.0.0':
+    resolution: {integrity: sha512-uyywU4WDnUYh8dlK4KPhdoM8jzqyPIzYBGVY7N4zmay4U8xxJ2po0fQu/rgU5t69G+75ZNbIdTjTuOu634LsDg==}
 
-  '@plugin-light/postcss-plugin-transform-web-tag@0.0.7':
-    resolution: {integrity: sha512-EPsTjBgzbQf0yeK2TP67l+ZQjgHlZQJbxCG8IoGmRo2ookECE2UW53T59/vsS1NQ9CUudEucPk4NCqOX7p4yyA==}
+  '@plugin-light/postcss-plugin-remove-selector@1.0.0':
+    resolution: {integrity: sha512-iEhYpshut9lJUvvIirdyYFE9D5oFhvRSePbdseVSDnDBCeeae2k+7rGRr0fS/hYskFADLxLSRfuFwWLIdx1Phw==}
 
-  '@plugin-light/preprocess@0.0.3':
-    resolution: {integrity: sha512-/Ur2T/FTAH7uDQAmNJAAo6boDR9cVgsOQWfqwfbeF8YgqZ1ps10qkSUhdSX3BggbQ+Fulclw41XaCozi28ey5A==}
+  '@plugin-light/postcss-plugin-transform-web-tag@1.0.0':
+    resolution: {integrity: sha512-yoR74iAHHHqgt9YrJTArKBhKZPejRRRqC0lLAjEXzMH2Yi8/PW0a7S8rsldXcIBsoJCzsPPmaSlcySl9LUFfXA==}
 
   '@plugin-light/preprocess@0.0.4':
     resolution: {integrity: sha512-W3WG3uWrq0XSI3B9kF3CuAJqGMDfqK/yjxcZXAng1cqf/TWdEGGMuUsi3Yswf2QkmuB1Ww7TKHGysCdbamwB0g==}
 
-  '@plugin-light/project-config-uni-vite@0.0.37':
-    resolution: {integrity: sha512-lFYriUVKjIP222NNSrOEru5m/345rRIaQZJhKqUaCL+N7i6X2UNzqnErV4bi8M7O3+KjSnqBtSohJdBRJfPrdg==}
+  '@plugin-light/preprocess@1.0.0':
+    resolution: {integrity: sha512-uw3bl05dI5i13FfKYmYA5tAlCMiql6PhQVp67oLNp+3Qs4Xz9o23SuJ4H/WorYAF/PwlR7GAs0SMRjMKLd7+Jg==}
+
+  '@plugin-light/project-config-uni-vite@1.0.0':
+    resolution: {integrity: sha512-qrTAYDsTuVCkDVDT+ZvN4wwSxp0f4nWuZAeYKNB8nuhd0Xic/A4qYzmRQJuKvfBwuXRBYgqrG2uTm7Opcnk05g==}
     peerDependencies:
       vite: '*'
 
-  '@plugin-light/project-config-uni-vue@0.0.4':
-    resolution: {integrity: sha512-sobB2OuTCrvY0G8leDlyJJeQzRUuu4qXMFH/4p58mWcWC+lYICGlwRZjuoTghR1tiCYpz5yzz+tMDgCJ/VwLNg==}
+  '@plugin-light/project-config-uni-vue@1.0.0':
+    resolution: {integrity: sha512-Uxj16CkFzrVhSRulGuKdWJb0v9TTFHGrWwEmVWIxBI0bI2J/Xv9EmE0Q+oq7i4PQxI0qgihhhgdH87XfUkIk2g==}
 
   '@plugin-light/project-config-vite@1.0.5':
     resolution: {integrity: sha512-+xCVUWhx2MpvTYeURefEuvK0Xn3pPNAqI3Ycdyht5wSPl6VuUQmOOMAF61EjU+WOLtx/m0VeDFkXF7writtKVQ==}
 
-  '@plugin-light/project-config-vue@0.0.11':
-    resolution: {integrity: sha512-sVpf4hsdYmQt0o1SsaflSZMRtLLKbfPccw/GhRycOfh3k+tKCaSgXKDXe+xBQ3syVD/IGeR2gTpLCy5Rh+ngSg==}
+  '@plugin-light/project-config-vue@1.0.0':
+    resolution: {integrity: sha512-GNKjyCb+Dq0+F4IrVhdR+iG7C3bsZ8e2bLOxKc4GdrjxqDH6BDkWXW9R6K/XuwDp5339osoKb5tXihiqv9LHPg==}
 
-  '@plugin-light/shared-vue2@0.0.6':
-    resolution: {integrity: sha512-l5Dl8LJ63u0DejG21msBLH+ewKrJ0wdhFDwS9PK2IRIUbq2cwca9PCI6ZxCk2s81/r42JzlvNIbRMH/fx36IeA==}
-    peerDependencies:
-      vue-template-compiler: 2.6.14
-
-  '@plugin-light/shared-vue2@0.0.8':
-    resolution: {integrity: sha512-CInfGqaBOVsRhpfMzKyOyX5K1KPBYfsCoQ/0Wpl96C8g5vmgm/eIWwFUmlzRxRRXSRd3cOPQXGmQ57/o4WuiTQ==}
+  '@plugin-light/shared-vue2@1.0.0':
+    resolution: {integrity: sha512-DD35XLmhDxsyoN+TbxzYtG2v3HPeCDgZ45oFzluTlNXofY9AuF6LizY4xgXP8XvUrgJYvc4rV+mCb75dYfBSjw==}
     peerDependencies:
       vue-template-compiler: 2.6.14
 
@@ -1334,29 +1332,29 @@ packages:
   '@plugin-light/shared@0.0.14':
     resolution: {integrity: sha512-oIVFrKCjzIlj7ULwfGKK3Gtk3tdkvHgGjNsHWGHTTWHHVA0+Zsvpw2BKYHnQKTeLhPzIfIwNunnkz0ZvpzTUoQ==}
 
-  '@plugin-light/shared@0.0.18':
-    resolution: {integrity: sha512-aOXR+JH1KqZawgrLJGv+KgaM0GQSnTYiLBVDKLp7EcCpksbBaeSQAYkl4iQ9lZlOQwslh+YVSJ24/zbBcCfo5w==}
-
   '@plugin-light/shared@0.0.19':
     resolution: {integrity: sha512-sLrtP0Nqv5xf0hiioPk/Xei/tOubhB3m9jEvxKV/wLp6BrDoxg8/36pLJCiaODJXqhxABe/wSIijqYoJ1E1ZMA==}
 
   '@plugin-light/shared@0.0.20':
     resolution: {integrity: sha512-ZbBzSo7JwKWifcWr+BaDHjY1/fq72S91nec0h89ty5iiL3GmY1JzQr7DxzXYAK3wHD8twJ4/Jk8XyM0O3tkmrg==}
 
-  '@plugin-light/shared@0.0.22':
-    resolution: {integrity: sha512-k0AmjHtVNpr1y5P6/9aVo4o8vBeL6zKge/RwiCv+jrY2YBeG7tcxM15/+tRk9oq9Z6JbCJmvULFH9g3UdiK+wA==}
+  '@plugin-light/shared@1.0.0':
+    resolution: {integrity: sha512-eNbl0yuaWu4+u3O3VPj6nOLlWz6iGggSC9rfIgcsXXuubruYG3rCycUfItFM1rBNAzZCGpLix+rGTJ4PJBg7fA==}
 
-  '@plugin-light/uni-read-pages-vite@0.0.4':
-    resolution: {integrity: sha512-EltXgTEUGql9OR3ZzaJph6delUP9F96cFvC4IVaEDy1o0dbqhckIVe/o24l0T78AWuX4gQqu+2GGX0BrjCbZPQ==}
+  '@plugin-light/uni-read-pages-vite@1.0.0':
+    resolution: {integrity: sha512-SK6zDNgGGtlNwNbAcwZqV9SOZuXj8AbbI8ye/vOC/OOCMsuXal66awn0Nutor7nJQKAGJPBgt8EwCvRf7ynMQQ==}
 
   '@plugin-light/vite-plugin-add-code-at-end@0.0.6':
     resolution: {integrity: sha512-N4eQveUaX0FlXQnMUEiAuf+luOEMRIArRkzAT91tVhFMPATnXkSa0TZCMkY2dvaV0jclhK0FWJxDG3E3t+uZWg==}
 
+  '@plugin-light/vite-plugin-add-code-at-end@1.0.0':
+    resolution: {integrity: sha512-nAOlLjO7yZ7+lmaBnrQY+Zatlh38HNnqXSPDIRk8jafAXEiT0DUmEkPki3JBWUpHKUzcqBzCdvksjvCVwaheCg==}
+
   '@plugin-light/vite-plugin-alias-for-library@0.0.7':
     resolution: {integrity: sha512-slS/sQ7A//uDBihOQbHdoknFn8tKZmlzKOTUeEx2YGce8obNX6CkQdDh/kO1xH1/BaJzuk+LXQkwVLFv6GsJVQ==}
 
-  '@plugin-light/vite-plugin-analyze-bundle-file-size@0.0.3':
-    resolution: {integrity: sha512-QAT7SHLk1OjAkxDzcuZsJV74Zs+5sDAjYC5rEQb145/V2OV+TWvZHeQN9WS2wWnfcH0lrQVLva3V+j5NE5UKWA==}
+  '@plugin-light/vite-plugin-analyze-bundle-file-size@1.0.0':
+    resolution: {integrity: sha512-nwGgLHQO5+nNx09TekZ4d1CSZR4I5Sj7+gN8v/dSDWM7E9rMliTw6WZjYBXz7WtZAUjRbcs6s7JopC9d64CETA==}
 
   '@plugin-light/vite-plugin-chunk-split@0.0.3':
     resolution: {integrity: sha512-veXKJ9nfNEStKnJ4C+uA+HoLd4wL2GSwCcl3gO38XhVPRPX221TdQwksQAt+5yoopkIlBOnme0VpHkeoyI5ZBg==}
@@ -1364,150 +1362,156 @@ packages:
   '@plugin-light/vite-plugin-cross-game-style@0.0.8':
     resolution: {integrity: sha512-PVy4y+BSINuv7La/IFNPWpbswwC9GaqbiA9PmxNrqM59U2Hx5ODwp6GTH3no0fpZ6sMcytCvYLhxb15Y8c93Fw==}
 
+  '@plugin-light/vite-plugin-cross-game-style@1.0.0':
+    resolution: {integrity: sha512-BvpJZEoyK02bp8Gkap9Nc35GKGHETk1dFEB3KN0l/BgJbiarx5vQtkzWsJp5BM6yyGyeVaITuW4WgV/HVM0WDQ==}
+
   '@plugin-light/vite-plugin-cross-platform@0.0.7':
     resolution: {integrity: sha512-EmuI3jaZM99pd9KtZaLwo8lTNfhfcN73ztomYuFqPnBwiOddolrO/Q35wMDimKZOya21E9jr79yHR7BSYQQqig==}
+
+  '@plugin-light/vite-plugin-cross-platform@1.0.0':
+    resolution: {integrity: sha512-t4Vp7T7BUt64Uqetl/mHvlCj6TYYBbrjzQrqUpEcfRB31G80bWc9Fl//iDIO4LLJIppcFVYuEk/x1T/g/+cYxA==}
 
   '@plugin-light/vite-plugin-export-default-in-vue@0.0.3':
     resolution: {integrity: sha512-jMIu8smDSuCmeXqW3LZI1c5utFnFiXehE1kRS8dMYbPIPjyOQDP/9+zTpboAY8Gp4BiW7LWI9hYFYStwGMY00g==}
 
-  '@plugin-light/vite-plugin-fix-uni-dir@0.0.7':
-    resolution: {integrity: sha512-PmMet1VznccTHDamvbU7LqOlurJnc1SwAB/ODxCrD3tV5ebYm++xK9oBV+Z7TSR7MZOIfASqHJURbrZOT3ozQA==}
+  '@plugin-light/vite-plugin-fix-uni-dir@1.0.0':
+    resolution: {integrity: sha512-Nvu5M4HCHEA8iavOq4GFawQq1Ugpii/4TzoQdrUoMUsEWLGPxqGwQqIOP8vq2aXTLfPEdm6cZZwbEMxz0ttvpA==}
 
-  '@plugin-light/vite-plugin-gen-mp-qq-app-id@0.0.6':
-    resolution: {integrity: sha512-nX6oufni/Up7iprbjboLjkq98USmSrQesUYkFvX1oIYDcdhFVBKuaqU9vKGMWqYUnECRAZGmcltivtoVqQ0r2A==}
+  '@plugin-light/vite-plugin-gen-mp-qq-app-id@1.0.0':
+    resolution: {integrity: sha512-x0Lx8JdYXr6u7kzXYdVRIo8NPxn1B6fVVM5V5C31Z5HYC/oKRP3JQBFgAcaajiKzocz5WqExYKCPm3We8HL6uQ==}
 
   '@plugin-light/vite-plugin-gen-version@0.0.9':
     resolution: {integrity: sha512-cvUkZl8HkKXPzyfy1fXoBxinC2EzwQ2bDJPwjKc+fU/8KyXj4lZWkoVDVnc0jfXPc0B2lHIapExsVGaPakIiug==}
 
-  '@plugin-light/vite-plugin-global-this-polyfill@0.0.6':
-    resolution: {integrity: sha512-m9WBPX7wxJXraothi39h5D0698vK0TYa12/UXPjk9NpNvV2s7KOcytsP++Ikpg6lDckQ7lg4z5cBmAJpylNG2A==}
+  '@plugin-light/vite-plugin-gen-version@1.0.0':
+    resolution: {integrity: sha512-+l8s5IR9rBthgVr/qWIl6iBkPmxkZ204tGmdypigl4cNinAFj8n/Ej+5LdCpbAIsHzF7nXbfzg7A1bz8aXJoJQ==}
+
+  '@plugin-light/vite-plugin-global-this-polyfill@1.0.0':
+    resolution: {integrity: sha512-gnfiCNQJHlMBiYaRule0WCFhUbvkPC5GafNGEVVVJZhYLyzpTvY3iBYYYO/XmRem4eCf+Sc9CVwlOEk8n3qsBA==}
 
   '@plugin-light/vite-plugin-ifdef@0.0.8':
     resolution: {integrity: sha512-J6w3B4Ijqn5sQxxhI+7oo2JooYCn9urW3vVpniUHEbFEd6Ef3D8Le4ncxrg0Z6lL32N2/7Opmi/5stf5h87w6A==}
 
-  '@plugin-light/vite-plugin-legacy-polyfill@0.0.2':
-    resolution: {integrity: sha512-XPUqWlZR4EI79tp9JpoOmnclz5uEss1PDp2J6iY5BIAoRiIkADSPQwCJEnm0cCTUGzbFubQGMeOzVZDbIkpiFw==}
+  '@plugin-light/vite-plugin-legacy-polyfill@1.0.0':
+    resolution: {integrity: sha512-OhmhgGIb5r7j+CZXqUQB6q+M+vxv0vssH279L+PlHvQCmciAU85jWSGDm/Nm3Bg/KeOuimDrr4cZ/YF8ChyCcA==}
 
-  '@plugin-light/vite-plugin-rem-to-rpx@0.0.6':
-    resolution: {integrity: sha512-/0iAY9K8qEQIoPZXmaZg8oRA0kVwAog8vJ5AdvjOnIP0iKMHcU6RXev076eTPrVlRo2EaSdB97h7PgQ393RShg==}
+  '@plugin-light/vite-plugin-rem-to-rpx@1.0.0':
+    resolution: {integrity: sha512-nwuJ1kOubNHL/RB8ZZ8RSCkWB30xcz9Qr4f+/F1w9MOdeqQ0PlmeYfuKVi9rdJb74yRJ3asiBHgXaZRufCY+qQ==}
 
-  '@plugin-light/vite-plugin-remove-use-rem@0.0.8':
-    resolution: {integrity: sha512-E5UXYUir8RnKpE2oFmqpYY51JTollkevl1QJcbkdPlL9gi8KnupeH0PvEoYsspQlgSQAcSTsx1GvJU3VIqk23Q==}
+  '@plugin-light/vite-plugin-remove-use-rem@1.0.0':
+    resolution: {integrity: sha512-Y3hkUE4su42LIn5A9yaKf+CAI5OiolgbhtmdfBouox2OjLc7dk+9J1HBdK8I0PiteQKSOtlDxp7IQy8tqgXOLw==}
 
-  '@plugin-light/vite-plugin-remove-vue-directive@0.0.6':
-    resolution: {integrity: sha512-J7XKI++DrzilkSRjeKNJPwEkWuOEqCNk0lt2bWjZBDZFNTP2IIb9tM7tRsL8Vlu26qLJP8E5BNRyyL0vD2Yjbw==}
+  '@plugin-light/vite-plugin-remove-vue-directive@1.0.0':
+    resolution: {integrity: sha512-PdzJ3OECyycUuyADeJtQLv7Hm2z8LhdaBu6ATtDl3fjmoW/bX3fEwZNHIs6WZKiSwrymx1xu047HzCkRCB2KRQ==}
 
-  '@plugin-light/vite-plugin-transform-v-lazy@0.0.6':
-    resolution: {integrity: sha512-tD+bSIYU3KJ6Nsifz/+50QMGrogaYf9lO4d4fwsRHWKaLUMIoMNkVCFsIZLrFktPVM6v54CBJHfhcmzvh8hoOQ==}
+  '@plugin-light/vite-plugin-transform-v-lazy@1.0.0':
+    resolution: {integrity: sha512-UhLpsGc3SHNI9xecTXIDIpHzb4aiSTi0u6dvD2sWGyYRsdUyFfMKWrkT5kt/gBmimbYo//pipAHrpt5bWUkWgg==}
 
-  '@plugin-light/webpack-loader-auto-placeholder@0.0.7':
-    resolution: {integrity: sha512-V0RhIypuMuYD/k6EYD5uLu8domhjs3GcH2ApA5BdWWzDPUaYyBHIfsbzjZONFkys70H7NfcTAjUQs8VnLHoCAQ==}
+  '@plugin-light/webpack-loader-auto-placeholder@1.0.0':
+    resolution: {integrity: sha512-DTepASQq0Q3xNH8sm1QVGq8D9WonWuimqGD2HGqNHOSdNKzEVuGIRKqTZQWdFfiCZ+MD4EgaQGDJyCEOjJQdpA==}
 
-  '@plugin-light/webpack-loader-cross-game-style@0.0.7':
-    resolution: {integrity: sha512-ooxI0Y23KRW+5CaHmozdoouO0gIQMlKvdrx/ThSvthWjgAGkn8zqC25+3OXPbQiRkroxuhe2rDq5ViZ9KwGV1A==}
+  '@plugin-light/webpack-loader-cross-game-style@1.0.0':
+    resolution: {integrity: sha512-jP+uJXXPffkU1i2iAMxU5bGp9nUxSEgcEmmIQe1oSIhIVJhDi4OB3l9t+EIBMp8l5M5nfZ+WxDMgAWNpwhk6JQ==}
 
-  '@plugin-light/webpack-loader-cross-module-style@0.0.8':
-    resolution: {integrity: sha512-iTR75JubhB0LBcYdtyzgx/BpqvLIIb2uvMB7V8RcgiEaTrWqx2mtLiU/BhfTnVb9qNYXUxc7MjDRwRICGPPiNA==}
+  '@plugin-light/webpack-loader-cross-module-style@1.0.0':
+    resolution: {integrity: sha512-LIoiqRuA6MYRl4XAEDeCmtSssSzZD3R2TmcC1YuropXGUe7qaaPfpEjXlbxcbO77ozBThCbalGKg0syEUMBihw==}
 
-  '@plugin-light/webpack-loader-cross-platform@0.0.7':
-    resolution: {integrity: sha512-QdylGn9aX5Enwf7piQY1dkh4nJnkDCKWojwsxXdIfJX+efhi7n4rUg2Dscp0WaqyJKH/1znv1Jc6M/aD6gNQvQ==}
+  '@plugin-light/webpack-loader-cross-platform@1.0.0':
+    resolution: {integrity: sha512-1+caxkw+pgoFzSy0fWLuLmQwmkaSfX4Sv/WrKGvB3iF9iKdQJ4hf/5ZOJ8bJodsiO0FO0bmHAs/Pcl7F54Wr2w==}
 
-  '@plugin-light/webpack-loader-css-url-blank-space@0.0.7':
-    resolution: {integrity: sha512-Pu8/S1WFCq/k3G83AssqukVKgWuA/agNpfh8nSxQMTMqshGtOFeS9zl2Tqlf9SRN3j+HVlJBrnSKyo90twBSSg==}
+  '@plugin-light/webpack-loader-css-url-blank-space@1.0.0':
+    resolution: {integrity: sha512-Z53TgXQ9SsMryK3cPl0HEpcfwiCfkJDN+WH11XL8yQViBGjiqfwL3yw5DRvy2UxyzWyfm5Q33v0ZAYvJ3MSPSA==}
 
-  '@plugin-light/webpack-loader-ifdef@0.0.9':
-    resolution: {integrity: sha512-UqBHQb8peY4dHQXUN+3pzZFF85g1X1dLuH/ANT2GcjQWqwarAMpr0SRiOrxTe/3y5loKwMluqdAu+CUgcc6dXg==}
+  '@plugin-light/webpack-loader-ifdef@1.0.0':
+    resolution: {integrity: sha512-NyBku0hwjmhKSyBc9BvnmjMkAqfKhI97J5KuYO3I0TofoeDSAkMoHwcANHnBh6NXfmxHtBWUWYudJYE5bRUfOQ==}
 
-  '@plugin-light/webpack-loader-insert-global-comp@0.0.10':
-    resolution: {integrity: sha512-MuPXJxqy5JUJ5iwICtAAcs1MkiQBoP7czBfRm665KoH2DxWyHwmF0nFK56jJW6xftD+ayxjmxJzVf7S7DbMmJQ==}
+  '@plugin-light/webpack-loader-insert-global-comp@1.0.0':
+    resolution: {integrity: sha512-U+znCIsEVBnJKjh2sxxvrtH8DAvYqifRF+fPQ+iOsdznNWSIPsTjWvaMNezCoAshzmbxIXBvbKdZAWNtXbaqzw==}
 
-  '@plugin-light/webpack-loader-insert-page-meta@0.0.7':
-    resolution: {integrity: sha512-KWNFthZClyGEuQw3Yaw7jdsU1VzF83Ux293NviuEl+LY/WGmpYa+cez0yB6Mj3gpcM3oyE+E1TXpWFW31ACRVg==}
+  '@plugin-light/webpack-loader-insert-page-meta@1.0.0':
+    resolution: {integrity: sha512-9xP92TnfIyIPB946/PMxqA+t8lRBQYBjwTsR1KHlRrZQbePyGAGlAnisbQGJL3B62vyb3BNM+bJG3NWkPjABrA==}
 
-  '@plugin-light/webpack-loader-publish@0.0.7':
-    resolution: {integrity: sha512-loK0ruZLSy3vNXXW7SiuuJepmlYbtLAhynUaxmfOnErOPeuxJdpub3Hz/aeKuaxYem7IbZej81E4OvQczaTsvg==}
+  '@plugin-light/webpack-loader-publish@1.0.0':
+    resolution: {integrity: sha512-NhMmAhBLeYe79IJBOOvVeQkWdQKeR491DkY9I7KFvXJlGcXn6Z7T46EgzKJNUtceD2s4M37hXysnd3keSCxXSg==}
     hasBin: true
 
-  '@plugin-light/webpack-loader-remove-scoped@0.0.7':
-    resolution: {integrity: sha512-cnBxu7anymmE+G/ZM4PFAAmqu2f89ojtl5KzQEp2mI37rSTfv/DsoFm8yFmLSvdevgp+VnF9/5K9+yL5p39gGQ==}
+  '@plugin-light/webpack-loader-remove-scoped@1.0.0':
+    resolution: {integrity: sha512-/hBQUkQmjYEJ5gUfAUiwYomDJV4zlETVbsbW138P73ZdVvah2yAQyRsDe8YxaFQyvAsYBiT/ljWllry0PxodSg==}
 
-  '@plugin-light/webpack-loader-replace-library@0.0.7':
-    resolution: {integrity: sha512-yqYn0dJdpE//inO0py7JuW4oYQVzOIUdurWuckg7D7xQWEJngmVqTchCDzkWBwuskEcPWD0G6uFlIUc0VBcMlg==}
+  '@plugin-light/webpack-loader-replace-library@1.0.0':
+    resolution: {integrity: sha512-yDB1hq72/ZjyyhMertbVkvZ0CyXMwYOzxevB+byG7D1aA236s9szH8l1+ZOHBORO8Ks+eEdYnAinHBZ53z32Xg==}
 
-  '@plugin-light/webpack-loader-replace-template-tag@0.0.7':
-    resolution: {integrity: sha512-X6063JiWqe0/JbCHYrtYktehF9sw6UAWqDtSO1TLUZ5ZHLlc48Fy1TxqdYHmNGsfm31M8FuRkuCYso61T4mnRA==}
+  '@plugin-light/webpack-loader-replace-template-tag@1.0.0':
+    resolution: {integrity: sha512-BqSWNUHZ6O64zVW0ywZmXyGsnKH4aUNmeWtTIKY8pM2L4Sht8Z70o3Li2/fWHt9ztaqyL+CdJ7rDkXZc+zaiPQ==}
 
-  '@plugin-light/webpack-loader-replace-vue-key@0.0.7':
-    resolution: {integrity: sha512-O2g+iyUJLUnB9O6gjTRRp0uHrSdiDFqq2YlaFT3hl5FWRJM/Nct91bvjw0404iIUnL8XOCGDRMUNgbgvJL82yA==}
+  '@plugin-light/webpack-loader-replace-vue-key@1.0.0':
+    resolution: {integrity: sha512-BMQxtIcO0hMkF70O1zhXdaNitZxbpuDf8eAg78mFgBRSN7vpv++/YGLzBY1iJbaSGCG1kg8+iFSubgC3q65ttw==}
 
-  '@plugin-light/webpack-loader-swipe-component@0.0.7':
-    resolution: {integrity: sha512-F/X9b1iA6x4X4DAbhhIPw66eAgtF/sKusHOeQcZrXZp0N+4optjAFIGfAKKeVxtX4rULoY1g3fFIxvXOWx+n/Q==}
+  '@plugin-light/webpack-loader-swipe-component@1.0.0':
+    resolution: {integrity: sha512-QHYTO227DEA2L1qhpTvHlpmgqh22J/aMAOwNHygFsqHRwKzMdRIjYCSv90jGmrC0aWj/owGzBN9wD/ZLC6mhcg==}
 
-  '@plugin-light/webpack-loader-transform-dynamic-comp@0.0.8':
-    resolution: {integrity: sha512-9n2lk+sK0G6e8mO2s8o3SBHe1jLlUnEzDwUd9pqd7we370Mnqqbxg20eYxT0js6n10/8SdzL8mXB5zLxMcwJog==}
+  '@plugin-light/webpack-loader-transform-dynamic-comp@1.0.0':
+    resolution: {integrity: sha512-GNzDWHgJuKEvipK8MMJYyGoyy6NrbnTDbhzR6UaABleFnwGwEqw06zj2wgUg0/VPd9vgmJzb23bAQKxHjfrg8g==}
 
-  '@plugin-light/webpack-loader-v-lazy@0.0.8':
-    resolution: {integrity: sha512-7UGtrHLdqQF/MO6tDEePw54ZN8EZmFF47nLVoe3sUlpvR8jbRF+jPdu/eLSGCk9m4TuVhDAB4HdEsW5eyHnTSQ==}
+  '@plugin-light/webpack-loader-v-lazy@1.0.0':
+    resolution: {integrity: sha512-/toYMsX+/nytFplXva1nMGvkLpxnatpN7zpsZzEhsASrv4+ygrIqSW37AG8DnRKwohjKvJp/8ldfdmwDidhPUw==}
 
-  '@plugin-light/webpack-plugin-add-common-vendor@0.0.4':
-    resolution: {integrity: sha512-7CCQlO/lYS8hximWrZRcC4bYS1XNUFCAeHEQSa8zpMajOMFPXzbvFjl8fe2A2bx4xQ0yWwWRg7MzlUU8NMlbEQ==}
+  '@plugin-light/webpack-plugin-add-common-vendor@1.0.0':
+    resolution: {integrity: sha512-nAf1iKfPKTaFwaeHNG2Cqi/nz394N2f1lOedFaIx34rZ5Jslv2COIrx8yR/jrujohEF561EL9J1FoCIuclei0A==}
 
-  '@plugin-light/webpack-plugin-add-placeholder@0.0.4':
-    resolution: {integrity: sha512-BlwvLdHo2vzZc+vCE+jCSt/f+T+xwHu9WLFbvWIDnizYzC39R7guzxKzrSZExLQp1ep1N6cw9BtxjBApoV406w==}
+  '@plugin-light/webpack-plugin-add-placeholder@1.0.0':
+    resolution: {integrity: sha512-m1bR5nlvkDvyZFG78aQuejg7LrTlSBmrEZPWWE29P2d/TMmiumG6jvj3rLXrzhJ8UGNd2YBrksoMz01BmjMayw==}
 
-  '@plugin-light/webpack-plugin-check-long-constant@0.0.4':
-    resolution: {integrity: sha512-n3YZnDa7Ivx+gj21TPbBATjXWL8qcuOQRUO0ROiLAw5GHqnvT06rX8VVPvRe2iz74qNyAIySqGzYosOjxj6PUA==}
+  '@plugin-light/webpack-plugin-check-long-constant@1.0.0':
+    resolution: {integrity: sha512-reNnhjS6pSsAWcDfjsFOoPB9Hdsl3/5trfd/GSBSM6h3Hm205jxmszcKQcBss/mYDJfM8Ql/Pocj068OEvqdRw==}
 
-  '@plugin-light/webpack-plugin-copy-dir@0.0.5':
-    resolution: {integrity: sha512-+6jNkElWV3nXMZLNMV3Bf/m2Vdldrv6mAzH4KaFxUqxwukxcGfBD89k3+oG3TUc221QvhYNSIKGdtuq/ud+TcA==}
+  '@plugin-light/webpack-plugin-copy-dir@1.0.0':
+    resolution: {integrity: sha512-enFwQ2ONaHuTKppPUeLIflbOPbZ4h9zb/KHVNS0POC2SjUroiUkfR0lvU1curTMTPWGIQJ4qG0wNcJRHUlVCFQ==}
 
-  '@plugin-light/webpack-plugin-custom-preload@0.0.5':
-    resolution: {integrity: sha512-2CvQuO3hynGrimSQxhVf8TthgsYclx2hg4591AsqDBNJvYmZIO9qjjxmQdjbZj0+IqgFqox30M2znqgh+ohbBw==}
+  '@plugin-light/webpack-plugin-custom-preload@1.0.0':
+    resolution: {integrity: sha512-8luyfsOX2BPULB1+xZskqdqQmqG2nhjY/LG8vqMRH1sxEz+Ug1vh4R93QbSzxtdAOmBIEoUt6jPVtZ/pDGIqiw==}
 
-  '@plugin-light/webpack-plugin-dispatch-script@0.0.6':
-    resolution: {integrity: sha512-HxIB4AS7RDEYuMJEWYF9n1G1WGJIrIvr8l6DYzKTRoE2+AKQ2MHY2MRlQh1qgJOE9lvFdq0zPYGgl1V998O+kQ==}
+  '@plugin-light/webpack-plugin-dispatch-script@1.0.0':
+    resolution: {integrity: sha512-BJkrVdSBZAVDn43ZiPgGg10suS3A+sPtSlmMKbYTr0c8YGM2u2EvyJpIbqmYaHH74WOzTzTnG34pyHEJ459jwQ==}
 
-  '@plugin-light/webpack-plugin-dispatch-vue@0.0.4':
-    resolution: {integrity: sha512-CeOVyU6GYxSVnyEj794EdxinFyFqJegGe3Sjpj89/raPVM0VT1x3pXA58dLPL2NP7uvgKOON+0YngKPnsQ/Ckw==}
+  '@plugin-light/webpack-plugin-dispatch-vue@1.0.0':
+    resolution: {integrity: sha512-vmOdJgV3z0iKzyFoXSzrA98F3bSgDS/04a5/nLUbW0eLoW+PWNXB7PIu6Yy4YgfhrPPHw7g/88i7WNTTxjvPRg==}
 
-  '@plugin-light/webpack-plugin-dispatch-vue@0.0.6':
-    resolution: {integrity: sha512-gHpL/ik2aS+E5ecUCCp2O+uy/JD6uzJZ675DoCu9ACYGKAiWO3+qrYJVMcr7Qj4J0mVyvmE+vh2S/kA/cxixyg==}
+  '@plugin-light/webpack-plugin-fix-import-path@1.0.0':
+    resolution: {integrity: sha512-grVNQlt8yMAM7BUyqJkpT+i6TRRYYoZa548QACa/lYogxTeGuYP/AFp+d/QEnFEKSI3Hb8yLEgzpT3YMNESP6A==}
 
-  '@plugin-light/webpack-plugin-fix-import-path@0.0.4':
-    resolution: {integrity: sha512-ZVFsM4wjeZ98EhZek5X6e2UoIH73kAswrl5G2jPFxT8z3xR2elkOQyhAgYm2OzKt/GJyGi33elqyCoqVse6fmg==}
+  '@plugin-light/webpack-plugin-fix-mini-css-plugin@1.0.0':
+    resolution: {integrity: sha512-1TzmgM3dd4xL+nShbcxZo21VahTTMqbcxgECd+JlR+4m4GSQ+4sWJm/zcNZFre8Il/g5pp90k4OWnzucAssgdw==}
 
-  '@plugin-light/webpack-plugin-fix-mini-css-plugin@0.0.4':
-    resolution: {integrity: sha512-/G2/g/GufNcNu56xlhh7W1Jrs3sEI36hSKjqQaYqgzegMbAYNCTCV7GJg0TMfWPeMFE5dXwJhaNC0Mt6jqKYzA==}
+  '@plugin-light/webpack-plugin-fix-npm-package@1.0.0':
+    resolution: {integrity: sha512-+OkhVbbAwhNZ/yFMOvqN3sVcWuDxkUH+CgQURbCYkfypjft0LDboBGcZ0fN0U4Hcbz8GK+1K2+PujB0nR717gQ==}
 
-  '@plugin-light/webpack-plugin-fix-npm-package@0.0.5':
-    resolution: {integrity: sha512-IVYNXJHaLtViOcF7oupWUJXc6XgaMQWT0wjiXB2Ytdfbynp9ZGMisTFME93jiqk58t0eNQ9JOUeAp+yoiQeYGg==}
+  '@plugin-light/webpack-plugin-gen-mp-plugin-playground@1.0.1':
+    resolution: {integrity: sha512-3lW/M8Es5LJDlUlmo6yAn5T5n4lauI+n3uvgYMxuUb/aFmgrdKTbuEHwhcj6t+8rcbOa0/LEEIM1G00guhABaQ==}
 
-  '@plugin-light/webpack-plugin-gen-mp-plugin-playground@0.0.4':
-    resolution: {integrity: sha512-kxUYU5ZocDUfcmyCpHOpKB5K+FMMACD/OQi7VniPKCNwqjOuSi+HL/5/1uHBKaMr1jJVM4Hq+X21AcIIQOYzhg==}
+  '@plugin-light/webpack-plugin-gen-version@1.0.0':
+    resolution: {integrity: sha512-hK6gKxmsGhcybhhfkolLIcbpJlXSFH1zXkHvDDQL9/X1rifuLYhNGGBCs4r7P43g/vodG8rj9rZmdj4x18HEqg==}
 
-  '@plugin-light/webpack-plugin-gen-version@0.0.6':
-    resolution: {integrity: sha512-Kgd3HecSLfhmd7gezcAZB6VYy5T0OQNzzxqzJGIYtoLL22S83wfCK1MqM2JHTMJOeO0YCtsG5JoKNO350updbw==}
+  '@plugin-light/webpack-plugin-global-this-polyfill@1.0.0':
+    resolution: {integrity: sha512-JK7Uupd/42IukgEZEMeI2jyniwRZOL2DPqWS5tcfYeTmc6OV/z5WTdA4ZgqjRtcUFx277DWVp7naMNfU0kcvrg==}
 
-  '@plugin-light/webpack-plugin-global-this-polyfill@0.0.4':
-    resolution: {integrity: sha512-DqyP2c+lMDZzwCTanWBwXLPkyxAoGYTKzKAqBj/XHPt1DXmMWNat6W3394eWoHKB917DOgMjOcdVkjxX2fxaWw==}
+  '@plugin-light/webpack-plugin-insert-script@1.0.0':
+    resolution: {integrity: sha512-blESDvzonxRuwVagvXNsE3KXswqF4KqZsA3HYwUBbg6jI2TJZ3COvuhw6ColgOxmVzFZaFw5MIhnDgv0bWQ5Gw==}
 
-  '@plugin-light/webpack-plugin-insert-script@0.0.4':
-    resolution: {integrity: sha512-Kb7xXNBAtLDnC2Y7mb5hQPlpKTmW397/X8UWABpnVsc0+UoWESy1kCS3rlLA4ZX48LsBqMFcQJvqOnaMcFpvOg==}
+  '@plugin-light/webpack-plugin-manifest-expose@1.0.0':
+    resolution: {integrity: sha512-bhQtxldp5vDSrrOFG0a2buoCz3xJ/Xie6tWnssWYoI/2UabMj23JGzmP8aAvpPV81FgT4SXUAZsaLo1e7odaoQ==}
 
-  '@plugin-light/webpack-plugin-manifest-expose@0.0.5':
-    resolution: {integrity: sha512-yyKJVEXnGtfy6S9ZnB+hSKPXzWHox1yojoBcxK0LDvqN/Im/JUMDx5Jwb4x3qL3QRfoHpEbRKWFsGbjHcPEm7g==}
+  '@plugin-light/webpack-plugin-modify-html@1.0.0':
+    resolution: {integrity: sha512-/3Vl4FfT5LSYVgObkBUXEC/7Nm7rGb4pANHUEyvaTiTdBsaH/eQMG88qiiHDr2Q0kv12/yfXG0nBnHhirAs0sQ==}
 
-  '@plugin-light/webpack-plugin-modify-html@0.0.4':
-    resolution: {integrity: sha512-9K94EZjfocKA3bAHljnC+rmERLZFqtZyjg5OPrcaFhyvGWHE9Fq0dcx+WHeEmlkQmYIsSmmhC63dWZkvdDxKZg==}
+  '@plugin-light/webpack-plugin-rem-to-rpx@1.0.0':
+    resolution: {integrity: sha512-uEw/dcdf5SYUUrs7p9mOiINTC0szZDBkPQ8hEpi/jww40pFWDCSdCpa6uQFyU3VY6z3WnUvZsX0FUHrMLF2atA==}
 
-  '@plugin-light/webpack-plugin-rem-to-rpx@0.0.4':
-    resolution: {integrity: sha512-L5QrDa9O8JYnYLocquuJvqOa55j/udgNYxFU79gWPtdnweTssjkokPIJZAmW20OPCCmpYSA5LtEIF71anRHOEA==}
+  '@plugin-light/webpack-plugin-replace-uni-h5@1.0.1':
+    resolution: {integrity: sha512-PNcqCqk7Oh0pZ1mVNGwKJHyMo481JS25fR6qQQkikZFpewUyNzYb7CyDpOZCHcUDaM5jYdRF0uY5z8O+brYVlQ==}
 
-  '@plugin-light/webpack-plugin-replace-uni-h5@0.0.5':
-    resolution: {integrity: sha512-FzcvmSaXdLFkYCgEfbYVwhAa2Nap03chRYTcsCzyyoOi/e+5mHz8P/zs+NmxlfJiXmlT9+PvznzdXXOr9n+Wqg==}
-
-  '@plugin-light/webpack-plugin-transfer-local-file@0.0.4':
-    resolution: {integrity: sha512-XLMUkamzhgSJOjfMYK2LAVVAuMJifzA9+TFGbaiKFnru7up7TX/5lunWj97k3ltABFtVlqcbKt4wtAse4PaN0g==}
+  '@plugin-light/webpack-plugin-transfer-local-file@1.0.0':
+    resolution: {integrity: sha512-VoYvxCN5dj5oAAmc/YwuxDc9QrDgyis63JGakqurYObK7OOgb4D+iZGWklSQ9BdbakTGXiiHdD9KTqJD1hMYPg==}
 
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
@@ -3378,8 +3382,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  ebus-light@0.0.2:
-    resolution: {integrity: sha512-b5x6bH5xIeneVpM6zXw5A5emxkKkVxnOSwKui9O1say+yTH5zZxMNSuuk6ezm4Rl6g1eubZnsrZ9qOjpDNbhTQ==}
+  ebus-light@1.0.0:
+    resolution: {integrity: sha512-Ge2vv63uN4EfPCUxUK+Ehf9qGn/6XNfSrGq3Yd6kJuJVs/adEP8w2IgQpY2d7D/zJ8n5GP25evEO1U91EVRtAA==}
     engines: {node: 12.x || 14.x || >= 16}
 
   ecc-jsbn@0.1.2:
@@ -5992,13 +5996,13 @@ packages:
   press-hooks@1.0.0:
     resolution: {integrity: sha512-GmLwCJxGghtK6OWzJp6W3PulRdmmR16UwUbUWSegNwb6gIzu6l6CZqVyvA56lnUJlvWrlT0VZwbXkg3mNpBTAw==}
 
-  press-next@1.0.60:
-    resolution: {integrity: sha512-CMZnAArL46BjUmK2QW39c4Lkd/yGsstnQsfAx51FJuKQgqyUK/jbNnOCN5a+Wg7bkBaSpH+T9og9kiJXYoOLNw==}
+  press-next@1.0.62:
+    resolution: {integrity: sha512-Eu0cwa4SQslD2poVzfY/GgJbcbwV5FUmW6A6zjyvKJ0p5uGUGJi/GfegWtjkuhzjrXxC+4IdunzhGz2zq4nM5A==}
     peerDependencies:
       press-ui: ^2.0.12
 
-  press-plus@1.8.10:
-    resolution: {integrity: sha512-FRK5IMZC7RZJGc2Fe2+dqBOp14zuOlrnHBtrARnlmflzWCbg/2HoZbEzmVGAG2+AaMs+zalVJ+sogqkPLa67wA==}
+  press-plus@1.8.17:
+    resolution: {integrity: sha512-LYVpgF5Sj2yFUNnwqipILQHtA7yYfp9xU+ysRB0vNDYzZEMlD6O4olLXrylQcSdH4RVXwrITnXOFLasUf8OXag==}
     peerDependencies:
       press-ui: ^2.1.22
 
@@ -6023,8 +6027,8 @@ packages:
     resolution: {integrity: sha512-nLBlEDh1XKHXO/5qBkk3VSlxWImm9SY628n2c5YEpURpwyS8vqANYhztJKPMpkhvWYPTkGD3plNkT1LqRSqWXw==}
     engines: {node: '>=14'}
 
-  press-ui@5.0.12:
-    resolution: {integrity: sha512-DP2x0CeQrs2AcieugPJIgdFRd7/M+JMTYeWF5iN9Q5+Rp3nA9oVklKbTtmbRkSW37/unANW3zqO6WJGjWZgNwQ==}
+  press-ui@5.0.13:
+    resolution: {integrity: sha512-KMvSegHkIfRiqJSsSq+VSjysk6a6S4WA3j6fMB5FjK9gGcxUu90Z4JLgiHoxfW3ayqsmIeGENv+5Ilh/a9nLtA==}
     engines: {node: '>=14'}
 
   prettier-linter-helpers@1.0.0:
@@ -6509,8 +6513,8 @@ packages:
     resolution: {integrity: sha512-QMEp5B7cftE7APOjk5Y6xgrbWu+WkLVQwk8JNjZ8nKRciZaByEW6MubieAiToS7+dwvrjGhH8jRXz3MVd0AYqQ==}
     hasBin: true
 
-  share-light@0.0.5:
-    resolution: {integrity: sha512-XBdoh5jJ+zO7h1BpGTfDQUdSNC6BKT5F4uPCC05xUnCI7WAtXM8KqMSzq63xmwOZ6v/mlRmxwKuBNQ7v5Xznjw==}
+  share-light@1.0.0:
+    resolution: {integrity: sha512-Zwl/i+YNF+g5f6ZuMwV2o8ysxTMpHMvo68/XoDimH0k9z1YUArx7gmHNzZbNlsSveH9W1HpqCR6rfGv54OqSYw==}
     engines: {node: 12.x || 14.x || >= 16}
 
   shebang-command@1.2.0:
@@ -6865,8 +6869,8 @@ packages:
   systemjs@6.15.1:
     resolution: {integrity: sha512-Nk8c4lXvMB98MtbmjX7JwJRgJOL8fluecYCfCeYBznwmpOs8Bf15hLM6z4z71EDAhQVrQrI+wt1aLWSXZq+hXA==}
 
-  t-comm@1.6.8:
-    resolution: {integrity: sha512-JL0+7/X/smb1IxzSEAQ9jqZBqbaBBxBDohl8VxYTi5zNGfsxXfRf2dToxPhd/lJdUgW0+IoiTUVRdfyN3naTYQ==}
+  t-comm@1.6.10:
+    resolution: {integrity: sha512-Gf0eAEqL3mPxgd6tfSyNdUZf9W0k7yWQ3yzqzg2uQOrirzOb9fCorkBUGSCVu+BrHw8YGc9TGU2pbUQ8YYRXGA==}
     hasBin: true
 
   table@6.9.0:
@@ -7320,8 +7324,8 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vconsole-helper@0.0.4:
-    resolution: {integrity: sha512-3jnKkJTIyjD5nQS3ITqN33RcfKPSVUi133RPcxu9TXmKrmPtRcWNINGkuXdfj9C7SlshHh6RxUIl/9mI2FbAOw==}
+  vconsole-helper@1.0.0:
+    resolution: {integrity: sha512-xOF+s7PWrxepq9HK9MfuxZZHtmDMHLB4gWEKQxmqOkxWvBFemjmkAGNuxYBw2WIeIkQ2rfG3p9nOVi64PoXytA==}
 
   verror@1.10.0:
     resolution: {integrity: sha512-ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==}
@@ -8874,26 +8878,25 @@ snapshots:
 
   '@plugin-light/import-meta-resolve@0.0.2':
     dependencies:
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/postcss-plugin-remove-selector@0.0.5':
+  '@plugin-light/import-meta-resolve@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.20
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/postcss-plugin-transform-web-tag@0.0.7':
+  '@plugin-light/postcss-plugin-remove-selector@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.14
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/preprocess@0.0.3':
+  '@plugin-light/postcss-plugin-transform-web-tag@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      xregexp: 3.1.0
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
@@ -8904,26 +8907,34 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/project-config-uni-vite@0.0.37(esbuild@0.25.2)(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))':
+  '@plugin-light/preprocess@1.0.0':
     dependencies:
-      '@plugin-light/postcss-plugin-remove-selector': 0.0.5
-      '@plugin-light/postcss-plugin-transform-web-tag': 0.0.7
-      '@plugin-light/shared': 0.0.20
-      '@plugin-light/uni-read-pages-vite': 0.0.4
-      '@plugin-light/vite-plugin-add-code-at-end': 0.0.6
-      '@plugin-light/vite-plugin-analyze-bundle-file-size': 0.0.3
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.10
+      xregexp: 3.1.0
+    transitivePeerDependencies:
+      - debug
+
+  '@plugin-light/project-config-uni-vite@1.0.0(esbuild@0.25.2)(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))':
+    dependencies:
+      '@plugin-light/postcss-plugin-remove-selector': 1.0.0
+      '@plugin-light/postcss-plugin-transform-web-tag': 1.0.0
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/uni-read-pages-vite': 1.0.0
+      '@plugin-light/vite-plugin-add-code-at-end': 1.0.0
+      '@plugin-light/vite-plugin-analyze-bundle-file-size': 1.0.0
       '@plugin-light/vite-plugin-chunk-split': 0.0.3
-      '@plugin-light/vite-plugin-cross-game-style': 0.0.8
-      '@plugin-light/vite-plugin-cross-platform': 0.0.7
-      '@plugin-light/vite-plugin-fix-uni-dir': 0.0.7
-      '@plugin-light/vite-plugin-gen-mp-qq-app-id': 0.0.6
-      '@plugin-light/vite-plugin-gen-version': 0.0.9
-      '@plugin-light/vite-plugin-global-this-polyfill': 0.0.6
-      '@plugin-light/vite-plugin-legacy-polyfill': 0.0.2
-      '@plugin-light/vite-plugin-rem-to-rpx': 0.0.6
-      '@plugin-light/vite-plugin-remove-use-rem': 0.0.8
-      '@plugin-light/vite-plugin-remove-vue-directive': 0.0.6
-      '@plugin-light/vite-plugin-transform-v-lazy': 0.0.6
+      '@plugin-light/vite-plugin-cross-game-style': 1.0.0
+      '@plugin-light/vite-plugin-cross-platform': 1.0.0
+      '@plugin-light/vite-plugin-fix-uni-dir': 1.0.0
+      '@plugin-light/vite-plugin-gen-mp-qq-app-id': 1.0.0
+      '@plugin-light/vite-plugin-gen-version': 1.0.0
+      '@plugin-light/vite-plugin-global-this-polyfill': 1.0.0
+      '@plugin-light/vite-plugin-legacy-polyfill': 1.0.0
+      '@plugin-light/vite-plugin-rem-to-rpx': 1.0.0
+      '@plugin-light/vite-plugin-remove-use-rem': 1.0.0
+      '@plugin-light/vite-plugin-remove-vue-directive': 1.0.0
+      '@plugin-light/vite-plugin-transform-v-lazy': 1.0.0
       '@rollup/plugin-node-resolve': 13.3.0(rollup@2.79.2)
       '@uni-helper/vite-plugin-uni-tailwind': 0.15.2(rollup@2.79.2)(tailwindcss@3.4.17)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))
       '@vitejs/plugin-basic-ssl': 1.2.0(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))
@@ -8932,7 +8943,7 @@ snapshots:
       rollup-plugin-esbuild: 6.2.1(esbuild@0.25.2)(rollup@2.79.2)
       rollup-plugin-external-globals: 0.13.0(rollup@2.79.2)
       rollup-plugin-visualizer: 5.14.0(rollup@2.79.2)
-      t-comm: 1.6.8
+      t-comm: 1.6.10
       tailwindcss: 3.4.17
       vite: 6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1)
       vite-plugin-commonjs: 0.10.4
@@ -8947,44 +8958,44 @@ snapshots:
       - ts-node
       - vue
 
-  '@plugin-light/project-config-uni-vue@0.0.4(html-webpack-plugin@4.5.2(webpack@4.47.0))(vue-template-compiler@2.6.14)(webpack@4.47.0)':
+  '@plugin-light/project-config-uni-vue@1.0.0(html-webpack-plugin@4.5.2(webpack@4.47.0))(vue-template-compiler@2.6.14)(webpack@4.47.0)':
     dependencies:
-      '@plugin-light/shared': 0.0.19
-      '@plugin-light/webpack-loader-auto-placeholder': 0.0.7(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-cross-game-style': 0.0.7(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-cross-module-style': 0.0.8(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-cross-platform': 0.0.7(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-css-url-blank-space': 0.0.7(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-insert-global-comp': 0.0.10(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-insert-page-meta': 0.0.7(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-remove-scoped': 0.0.7(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-replace-library': 0.0.7(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-replace-template-tag': 0.0.7(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-replace-vue-key': 0.0.7(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-swipe-component': 0.0.7(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-transform-dynamic-comp': 0.0.8(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-v-lazy': 0.0.8(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-plugin-add-placeholder': 0.0.4
-      '@plugin-light/webpack-plugin-check-long-constant': 0.0.4
-      '@plugin-light/webpack-plugin-copy-dir': 0.0.5
-      '@plugin-light/webpack-plugin-custom-preload': 0.0.5
-      '@plugin-light/webpack-plugin-dispatch-script': 0.0.6(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-plugin-dispatch-vue': 0.0.6(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-plugin-fix-import-path': 0.0.4
-      '@plugin-light/webpack-plugin-fix-mini-css-plugin': 0.0.4
-      '@plugin-light/webpack-plugin-fix-npm-package': 0.0.5
-      '@plugin-light/webpack-plugin-gen-mp-plugin-playground': 0.0.4
-      '@plugin-light/webpack-plugin-gen-version': 0.0.6
-      '@plugin-light/webpack-plugin-global-this-polyfill': 0.0.4
-      '@plugin-light/webpack-plugin-insert-script': 0.0.4
-      '@plugin-light/webpack-plugin-manifest-expose': 0.0.5
-      '@plugin-light/webpack-plugin-rem-to-rpx': 0.0.4
-      '@plugin-light/webpack-plugin-replace-uni-h5': 0.0.5
-      '@plugin-light/webpack-plugin-transfer-local-file': 0.0.4
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/webpack-loader-auto-placeholder': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-cross-game-style': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-cross-module-style': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-cross-platform': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-css-url-blank-space': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-insert-global-comp': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-insert-page-meta': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-remove-scoped': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-replace-library': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-replace-template-tag': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-replace-vue-key': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-swipe-component': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-transform-dynamic-comp': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-v-lazy': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-plugin-add-placeholder': 1.0.0
+      '@plugin-light/webpack-plugin-check-long-constant': 1.0.0
+      '@plugin-light/webpack-plugin-copy-dir': 1.0.0
+      '@plugin-light/webpack-plugin-custom-preload': 1.0.0
+      '@plugin-light/webpack-plugin-dispatch-script': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-plugin-dispatch-vue': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-plugin-fix-import-path': 1.0.0
+      '@plugin-light/webpack-plugin-fix-mini-css-plugin': 1.0.0
+      '@plugin-light/webpack-plugin-fix-npm-package': 1.0.0
+      '@plugin-light/webpack-plugin-gen-mp-plugin-playground': 1.0.1
+      '@plugin-light/webpack-plugin-gen-version': 1.0.0
+      '@plugin-light/webpack-plugin-global-this-polyfill': 1.0.0
+      '@plugin-light/webpack-plugin-insert-script': 1.0.0
+      '@plugin-light/webpack-plugin-manifest-expose': 1.0.0
+      '@plugin-light/webpack-plugin-rem-to-rpx': 1.0.0
+      '@plugin-light/webpack-plugin-replace-uni-h5': 1.0.1
+      '@plugin-light/webpack-plugin-transfer-local-file': 1.0.0
       chalk: 4.1.2
       progress-bar-webpack-plugin: 2.1.0(webpack@4.47.0)
       script-ext-html-webpack-plugin: 2.1.5(html-webpack-plugin@4.5.2(webpack@4.47.0))(webpack@4.47.0)
-      t-comm: 1.6.8
+      t-comm: 1.6.10
       uni-read-pages: 1.0.5
       webpack-bundle-analyzer: 3.9.0
       workbox-webpack-plugin: 6.6.0(webpack@4.47.0)
@@ -9013,7 +9024,7 @@ snapshots:
       '@vitejs/plugin-vue': 4.6.2(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
       '@vitejs/plugin-vue-jsx': 3.1.0(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
       rollup-plugin-visualizer: 5.14.0(rollup@2.79.2)
-      t-comm: 1.6.8
+      t-comm: 1.6.10
       unplugin-auto-import: 0.18.6(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)
       unplugin-vue-components: 0.27.5(@babel/parser@7.27.1)(rollup@2.79.2)(vue@3.5.13(typescript@5.5.4))
       vite-plugin-cdn-import: 0.3.5(rollup@2.79.2)
@@ -9037,17 +9048,17 @@ snapshots:
       - vite
       - vue
 
-  '@plugin-light/project-config-vue@0.0.11(vue-template-compiler@2.6.14)(webpack@4.47.0)':
+  '@plugin-light/project-config-vue@1.0.0(vue-template-compiler@2.6.14)(webpack@4.47.0)':
     dependencies:
-      '@plugin-light/shared': 0.0.14
-      '@plugin-light/webpack-loader-cross-game-style': 0.0.7(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-cross-platform': 0.0.7(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-ifdef': 0.0.9(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-loader-publish': 0.0.7
-      '@plugin-light/webpack-plugin-modify-html': 0.0.4
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/webpack-loader-cross-game-style': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-cross-platform': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-ifdef': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-loader-publish': 1.0.0
+      '@plugin-light/webpack-plugin-modify-html': 1.0.0
       filemanager-webpack-plugin: 2.0.5
       prerender-spa-plugin: 3.4.0
-      t-comm: 1.6.8
+      t-comm: 1.6.10
       webpack-bundle-analyzer: 3.9.0
       webpack-hooks-shellscripts: 1.0.2
       workbox-webpack-plugin: 6.6.0(webpack@4.47.0)
@@ -9060,17 +9071,9 @@ snapshots:
       - vue-template-compiler
       - webpack
 
-  '@plugin-light/shared-vue2@0.0.6(vue-template-compiler@2.6.14)':
+  '@plugin-light/shared-vue2@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      loader-utils: 2.0.4
-      vue-template-compiler: 2.6.14
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/shared-vue2@0.0.8(vue-template-compiler@2.6.14)':
-    dependencies:
-      '@plugin-light/shared': 0.0.19
+      '@plugin-light/shared': 1.0.0
       loader-utils: 2.0.4
       vue-template-compiler: 2.6.14
     transitivePeerDependencies:
@@ -9078,43 +9081,37 @@ snapshots:
 
   '@plugin-light/shared@0.0.11':
     dependencies:
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/shared@0.0.14':
     dependencies:
-      t-comm: 1.6.8
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/shared@0.0.18':
-    dependencies:
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/shared@0.0.19':
     dependencies:
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/shared@0.0.20':
     dependencies:
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/shared@0.0.22':
+  '@plugin-light/shared@1.0.0':
     dependencies:
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/uni-read-pages-vite@0.0.4':
+  '@plugin-light/uni-read-pages-vite@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
@@ -9124,17 +9121,23 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-alias-for-library@0.0.7':
+  '@plugin-light/vite-plugin-add-code-at-end@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-analyze-bundle-file-size@0.0.3':
+  '@plugin-light/vite-plugin-alias-for-library@0.0.7':
     dependencies:
-      '@plugin-light/shared': 0.0.18
-      t-comm: 1.6.8
+      '@plugin-light/shared': 0.0.11
+      t-comm: 1.6.10
+    transitivePeerDependencies:
+      - debug
+
+  '@plugin-light/vite-plugin-analyze-bundle-file-size@1.0.0':
+    dependencies:
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
@@ -9152,9 +9155,21 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
+  '@plugin-light/vite-plugin-cross-game-style@1.0.0':
+    dependencies:
+      '@plugin-light/shared': 1.0.0
+    transitivePeerDependencies:
+      - debug
+
   '@plugin-light/vite-plugin-cross-platform@0.0.7':
     dependencies:
       '@plugin-light/shared': 0.0.11
+    transitivePeerDependencies:
+      - debug
+
+  '@plugin-light/vite-plugin-cross-platform@1.0.0':
+    dependencies:
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
@@ -9165,21 +9180,21 @@ snapshots:
       '@babel/traverse': 7.27.1
       '@babel/types': 7.27.1
       '@plugin-light/shared': 0.0.19
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
       - supports-color
 
-  '@plugin-light/vite-plugin-fix-uni-dir@0.0.7':
+  '@plugin-light/vite-plugin-fix-uni-dir@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-gen-mp-qq-app-id@0.0.6':
+  '@plugin-light/vite-plugin-gen-mp-qq-app-id@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
@@ -9189,9 +9204,15 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-global-this-polyfill@0.0.6':
+  '@plugin-light/vite-plugin-gen-version@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
+      '@plugin-light/shared': 1.0.0
+    transitivePeerDependencies:
+      - debug
+
+  '@plugin-light/vite-plugin-global-this-polyfill@1.0.0':
+    dependencies:
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
@@ -9202,318 +9223,313 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-legacy-polyfill@0.0.2':
+  '@plugin-light/vite-plugin-legacy-polyfill@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.18
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-rem-to-rpx@0.0.6':
+  '@plugin-light/vite-plugin-rem-to-rpx@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/webpack-plugin-rem-to-rpx': 0.0.4
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/webpack-plugin-rem-to-rpx': 1.0.0
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-remove-use-rem@0.0.8':
+  '@plugin-light/vite-plugin-remove-use-rem@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
+      '@plugin-light/shared': 1.0.0
       rollup: 2.79.2
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-remove-vue-directive@0.0.6':
+  '@plugin-light/vite-plugin-remove-vue-directive@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-transform-v-lazy@0.0.6':
+  '@plugin-light/vite-plugin-transform-v-lazy@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-loader-auto-placeholder@0.0.7(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-auto-placeholder@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-cross-game-style@0.0.7(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-cross-game-style@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-cross-module-style@0.0.8(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-cross-module-style@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-cross-platform@0.0.7(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-cross-platform@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-css-url-blank-space@0.0.7(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-css-url-blank-space@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-ifdef@0.0.9(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-ifdef@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/preprocess': 0.0.3
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/preprocess': 1.0.0
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
       xregexp: 3.1.0
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-insert-global-comp@0.0.10(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-insert-global-comp@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-insert-page-meta@0.0.7(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-insert-page-meta@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-publish@0.0.7':
+  '@plugin-light/webpack-loader-publish@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.14
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-loader-remove-scoped@0.0.7(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-remove-scoped@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-replace-library@0.0.7(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-replace-library@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-replace-template-tag@0.0.7(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-replace-template-tag@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-replace-vue-key@0.0.7(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-replace-vue-key@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-swipe-component@0.0.7(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-swipe-component@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       htmlparser2: 8.0.2
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-transform-dynamic-comp@0.0.8(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-transform-dynamic-comp@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-loader-v-lazy@0.0.8(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-loader-v-lazy@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/shared-vue2': 0.0.6(vue-template-compiler@2.6.14)
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-plugin-add-common-vendor@0.0.4':
+  '@plugin-light/webpack-plugin-add-common-vendor@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/webpack-plugin-dispatch-vue': 0.0.4
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/webpack-plugin-add-placeholder@0.0.4':
-    dependencies:
-      '@plugin-light/shared': 0.0.11
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/webpack-plugin-check-long-constant@0.0.4':
-    dependencies:
-      '@plugin-light/shared': 0.0.11
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/webpack-plugin-copy-dir@0.0.5':
-    dependencies:
-      '@plugin-light/shared': 0.0.11
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/webpack-plugin-custom-preload@0.0.5':
-    dependencies:
-      '@plugin-light/shared': 0.0.11
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/webpack-plugin-dispatch-script@0.0.6(vue-template-compiler@2.6.14)':
-    dependencies:
-      '@plugin-light/shared': 0.0.19
-      '@plugin-light/shared-vue2': 0.0.8(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-plugin-add-common-vendor': 0.0.4
-      '@plugin-light/webpack-plugin-dispatch-vue': 0.0.6(vue-template-compiler@2.6.14)
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/webpack-plugin-dispatch-vue': 1.0.0(vue-template-compiler@2.6.14)
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-plugin-dispatch-vue@0.0.4':
+  '@plugin-light/webpack-plugin-add-placeholder@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      '@plugin-light/webpack-plugin-fix-npm-package': 0.0.5
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-plugin-dispatch-vue@0.0.6(vue-template-compiler@2.6.14)':
+  '@plugin-light/webpack-plugin-check-long-constant@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.19
-      '@plugin-light/shared-vue2': 0.0.8(vue-template-compiler@2.6.14)
-      '@plugin-light/webpack-plugin-fix-npm-package': 0.0.5
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+    transitivePeerDependencies:
+      - debug
+
+  '@plugin-light/webpack-plugin-copy-dir@1.0.0':
+    dependencies:
+      '@plugin-light/shared': 1.0.0
+    transitivePeerDependencies:
+      - debug
+
+  '@plugin-light/webpack-plugin-custom-preload@1.0.0':
+    dependencies:
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.10
+    transitivePeerDependencies:
+      - debug
+
+  '@plugin-light/webpack-plugin-dispatch-script@1.0.0(vue-template-compiler@2.6.14)':
+    dependencies:
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-plugin-add-common-vendor': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-plugin-dispatch-vue': 1.0.0(vue-template-compiler@2.6.14)
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
 
-  '@plugin-light/webpack-plugin-fix-import-path@0.0.4':
+  '@plugin-light/webpack-plugin-dispatch-vue@1.0.0(vue-template-compiler@2.6.14)':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
+      '@plugin-light/webpack-plugin-fix-npm-package': 1.0.0
+      t-comm: 1.6.10
+    transitivePeerDependencies:
+      - debug
+      - vue-template-compiler
+
+  '@plugin-light/webpack-plugin-fix-import-path@1.0.0':
+    dependencies:
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-plugin-fix-mini-css-plugin@0.0.4':
+  '@plugin-light/webpack-plugin-fix-mini-css-plugin@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-plugin-fix-npm-package@0.0.5':
+  '@plugin-light/webpack-plugin-fix-npm-package@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-plugin-gen-mp-plugin-playground@0.0.4':
+  '@plugin-light/webpack-plugin-gen-mp-plugin-playground@1.0.1':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-plugin-gen-version@0.0.6':
+  '@plugin-light/webpack-plugin-gen-version@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.19
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-plugin-global-this-polyfill@0.0.4':
+  '@plugin-light/webpack-plugin-global-this-polyfill@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-plugin-insert-script@0.0.4':
+  '@plugin-light/webpack-plugin-insert-script@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-plugin-manifest-expose@0.0.5':
+  '@plugin-light/webpack-plugin-manifest-expose@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-plugin-modify-html@0.0.4':
+  '@plugin-light/webpack-plugin-modify-html@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-plugin-rem-to-rpx@0.0.4':
+  '@plugin-light/webpack-plugin-rem-to-rpx@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-plugin-replace-uni-h5@0.0.5':
+  '@plugin-light/webpack-plugin-replace-uni-h5@1.0.1':
     dependencies:
-      '@plugin-light/shared': 0.0.11
+      '@plugin-light/shared': 1.0.0
       fs-extra: 11.3.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/webpack-plugin-transfer-local-file@0.0.4':
+  '@plugin-light/webpack-plugin-transfer-local-file@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      t-comm: 1.6.8
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
@@ -11794,7 +11810,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  ebus-light@0.0.2: {}
+  ebus-light@1.0.0: {}
 
   ecc-jsbn@0.1.2:
     dependencies:
@@ -12273,7 +12289,7 @@ snapshots:
       eslint: 8.57.1
       minimatch: 10.0.1
       requireindex: 1.2.0
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
@@ -14812,17 +14828,17 @@ snapshots:
 
   press-hooks@1.0.0: {}
 
-  press-next@1.0.60(press-ui@5.0.12):
+  press-next@1.0.62(press-ui@5.0.13):
     dependencies:
-      press-ui: 5.0.12
-      t-comm: 1.6.8
+      press-ui: 5.0.13
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
-  press-plus@1.8.10(press-ui@5.0.12):
+  press-plus@1.8.17(press-ui@5.0.13):
     dependencies:
-      press-ui: 5.0.12
-      t-comm: 1.6.8
+      press-ui: 5.0.13
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
@@ -14843,7 +14859,7 @@ snapshots:
 
   press-ui@2.4.0: {}
 
-  press-ui@5.0.12: {}
+  press-ui@5.0.13: {}
 
   prettier-linter-helpers@1.0.0:
     dependencies:
@@ -15447,9 +15463,9 @@ snapshots:
       inherits: 2.0.4
       safe-buffer: 5.2.1
 
-  share-light@0.0.5:
+  share-light@1.0.0:
     dependencies:
-      t-comm: 1.6.8
+      t-comm: 1.6.10
     transitivePeerDependencies:
       - debug
 
@@ -15972,7 +15988,7 @@ snapshots:
 
   systemjs@6.15.1: {}
 
-  t-comm@1.6.8:
+  t-comm@1.6.10:
     dependencies:
       '@babel/runtime': 7.27.0
       axios: 1.8.4(debug@4.4.0)
@@ -16519,7 +16535,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vconsole-helper@0.0.4: {}
+  vconsole-helper@1.0.0: {}
 
   verror@1.10.0:
     dependencies:
