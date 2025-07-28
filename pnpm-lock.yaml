@@ -30,11 +30,11 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       press-next:
-        specifier: ^1.1.3
-        version: 1.1.3(press-ui@5.0.21)
+        specifier: ^1.2.5
+        version: 1.2.5(press-ui@5.0.21)
       press-plus:
-        specifier: ^1.9.13
-        version: 1.9.13(press-ui@5.0.21)
+        specifier: ^1.9.17
+        version: 1.9.17(press-ui@5.0.21)
       press-shared:
         specifier: ^1.0.2
         version: 1.0.2
@@ -60,8 +60,8 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1
       t-comm:
-        specifier: ^1.6.22
-        version: 1.6.22
+        specifier: ^1.6.23
+        version: 1.6.23
       tdesign-icons-vue-next:
         specifier: ^0.3.5
         version: 0.3.5(vue@3.5.13(typescript@5.5.4))
@@ -91,8 +91,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0(html-webpack-plugin@4.5.2(webpack@4.47.0))(vue-template-compiler@2.6.14)(webpack@4.47.0)
       '@plugin-light/project-config-vite':
-        specifier: ^1.0.5
-        version: 1.0.5(@babel/parser@7.27.1)(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
+        specifier: ^1.0.6
+        version: 1.0.6(@babel/parser@7.27.1)(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
       '@plugin-light/project-config-vue':
         specifier: ^1.0.0
         version: 1.0.0(vue-template-compiler@2.6.14)(webpack@4.47.0)
@@ -166,8 +166,8 @@ importers:
         specifier: '25'
         version: 25.7.0(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4)
       eslint-plugin-light:
-        specifier: 1.0.15
-        version: 1.0.15(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1)
+        specifier: 1.0.17
+        version: 1.0.17(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1)
       eslint-plugin-prettier:
         specifier: 4.2.1
         version: 4.2.1(eslint-config-prettier@8.10.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.5.3)
@@ -1301,9 +1301,6 @@ packages:
   '@plugin-light/postcss-plugin-transform-web-tag@1.0.0':
     resolution: {integrity: sha512-yoR74iAHHHqgt9YrJTArKBhKZPejRRRqC0lLAjEXzMH2Yi8/PW0a7S8rsldXcIBsoJCzsPPmaSlcySl9LUFfXA==}
 
-  '@plugin-light/preprocess@0.0.4':
-    resolution: {integrity: sha512-W3WG3uWrq0XSI3B9kF3CuAJqGMDfqK/yjxcZXAng1cqf/TWdEGGMuUsi3Yswf2QkmuB1Ww7TKHGysCdbamwB0g==}
-
   '@plugin-light/preprocess@1.0.0':
     resolution: {integrity: sha512-uw3bl05dI5i13FfKYmYA5tAlCMiql6PhQVp67oLNp+3Qs4Xz9o23SuJ4H/WorYAF/PwlR7GAs0SMRjMKLd7+Jg==}
 
@@ -1315,8 +1312,8 @@ packages:
   '@plugin-light/project-config-uni-vue@1.0.0':
     resolution: {integrity: sha512-Uxj16CkFzrVhSRulGuKdWJb0v9TTFHGrWwEmVWIxBI0bI2J/Xv9EmE0Q+oq7i4PQxI0qgihhhgdH87XfUkIk2g==}
 
-  '@plugin-light/project-config-vite@1.0.5':
-    resolution: {integrity: sha512-+xCVUWhx2MpvTYeURefEuvK0Xn3pPNAqI3Ycdyht5wSPl6VuUQmOOMAF61EjU+WOLtx/m0VeDFkXF7writtKVQ==}
+  '@plugin-light/project-config-vite@1.0.6':
+    resolution: {integrity: sha512-36Z1fe2pIthH3ikjHvITn562rFiHIX5P6RH+YLheDNA+a/VumnSJO7cHmRWf1OV+oZqOErLM/6yGWF3ov7/RSw==}
 
   '@plugin-light/project-config-vue@1.0.0':
     resolution: {integrity: sha512-GNKjyCb+Dq0+F4IrVhdR+iG7C3bsZ8e2bLOxKc4GdrjxqDH6BDkWXW9R6K/XuwDp5339osoKb5tXihiqv9LHPg==}
@@ -1326,32 +1323,17 @@ packages:
     peerDependencies:
       vue-template-compiler: 2.6.14
 
-  '@plugin-light/shared@0.0.11':
-    resolution: {integrity: sha512-6MLWFJypBAQEORej387EQdmG4b6kqHPlOpUguH8bS3gu0E2KzQtIQ7cJXjtvu58mPXtZHnSwlCdqSeU4/7eHQg==}
-
-  '@plugin-light/shared@0.0.14':
-    resolution: {integrity: sha512-oIVFrKCjzIlj7ULwfGKK3Gtk3tdkvHgGjNsHWGHTTWHHVA0+Zsvpw2BKYHnQKTeLhPzIfIwNunnkz0ZvpzTUoQ==}
-
-  '@plugin-light/shared@0.0.19':
-    resolution: {integrity: sha512-sLrtP0Nqv5xf0hiioPk/Xei/tOubhB3m9jEvxKV/wLp6BrDoxg8/36pLJCiaODJXqhxABe/wSIijqYoJ1E1ZMA==}
-
-  '@plugin-light/shared@0.0.20':
-    resolution: {integrity: sha512-ZbBzSo7JwKWifcWr+BaDHjY1/fq72S91nec0h89ty5iiL3GmY1JzQr7DxzXYAK3wHD8twJ4/Jk8XyM0O3tkmrg==}
-
   '@plugin-light/shared@1.0.0':
     resolution: {integrity: sha512-eNbl0yuaWu4+u3O3VPj6nOLlWz6iGggSC9rfIgcsXXuubruYG3rCycUfItFM1rBNAzZCGpLix+rGTJ4PJBg7fA==}
 
   '@plugin-light/uni-read-pages-vite@1.0.0':
     resolution: {integrity: sha512-SK6zDNgGGtlNwNbAcwZqV9SOZuXj8AbbI8ye/vOC/OOCMsuXal66awn0Nutor7nJQKAGJPBgt8EwCvRf7ynMQQ==}
 
-  '@plugin-light/vite-plugin-add-code-at-end@0.0.6':
-    resolution: {integrity: sha512-N4eQveUaX0FlXQnMUEiAuf+luOEMRIArRkzAT91tVhFMPATnXkSa0TZCMkY2dvaV0jclhK0FWJxDG3E3t+uZWg==}
-
   '@plugin-light/vite-plugin-add-code-at-end@1.0.0':
     resolution: {integrity: sha512-nAOlLjO7yZ7+lmaBnrQY+Zatlh38HNnqXSPDIRk8jafAXEiT0DUmEkPki3JBWUpHKUzcqBzCdvksjvCVwaheCg==}
 
-  '@plugin-light/vite-plugin-alias-for-library@0.0.7':
-    resolution: {integrity: sha512-slS/sQ7A//uDBihOQbHdoknFn8tKZmlzKOTUeEx2YGce8obNX6CkQdDh/kO1xH1/BaJzuk+LXQkwVLFv6GsJVQ==}
+  '@plugin-light/vite-plugin-alias-for-library@1.0.0':
+    resolution: {integrity: sha512-q07J+bGYhtegmOJwABONM1Mxx4FwsrPUE4h9zQpIxu/sdQEc69qVp97eHq9yAoOVoVf+6l+BB5ajNqQBpVpriw==}
 
   '@plugin-light/vite-plugin-analyze-bundle-file-size@1.0.0':
     resolution: {integrity: sha512-nwGgLHQO5+nNx09TekZ4d1CSZR4I5Sj7+gN8v/dSDWM7E9rMliTw6WZjYBXz7WtZAUjRbcs6s7JopC9d64CETA==}
@@ -1359,20 +1341,14 @@ packages:
   '@plugin-light/vite-plugin-chunk-split@0.0.3':
     resolution: {integrity: sha512-veXKJ9nfNEStKnJ4C+uA+HoLd4wL2GSwCcl3gO38XhVPRPX221TdQwksQAt+5yoopkIlBOnme0VpHkeoyI5ZBg==}
 
-  '@plugin-light/vite-plugin-cross-game-style@0.0.8':
-    resolution: {integrity: sha512-PVy4y+BSINuv7La/IFNPWpbswwC9GaqbiA9PmxNrqM59U2Hx5ODwp6GTH3no0fpZ6sMcytCvYLhxb15Y8c93Fw==}
-
   '@plugin-light/vite-plugin-cross-game-style@1.0.0':
     resolution: {integrity: sha512-BvpJZEoyK02bp8Gkap9Nc35GKGHETk1dFEB3KN0l/BgJbiarx5vQtkzWsJp5BM6yyGyeVaITuW4WgV/HVM0WDQ==}
-
-  '@plugin-light/vite-plugin-cross-platform@0.0.7':
-    resolution: {integrity: sha512-EmuI3jaZM99pd9KtZaLwo8lTNfhfcN73ztomYuFqPnBwiOddolrO/Q35wMDimKZOya21E9jr79yHR7BSYQQqig==}
 
   '@plugin-light/vite-plugin-cross-platform@1.0.0':
     resolution: {integrity: sha512-t4Vp7T7BUt64Uqetl/mHvlCj6TYYBbrjzQrqUpEcfRB31G80bWc9Fl//iDIO4LLJIppcFVYuEk/x1T/g/+cYxA==}
 
-  '@plugin-light/vite-plugin-export-default-in-vue@0.0.3':
-    resolution: {integrity: sha512-jMIu8smDSuCmeXqW3LZI1c5utFnFiXehE1kRS8dMYbPIPjyOQDP/9+zTpboAY8Gp4BiW7LWI9hYFYStwGMY00g==}
+  '@plugin-light/vite-plugin-export-default-in-vue@1.0.0':
+    resolution: {integrity: sha512-2zNUM39eQEmrg2JchrDnGPGpgO8lkasoa0jgWxV240YnKD3OZZKwtTgYrCuJA5y5+MY/rVBbm9ZuhbUHv5gZPw==}
 
   '@plugin-light/vite-plugin-fix-uni-dir@1.0.0':
     resolution: {integrity: sha512-Nvu5M4HCHEA8iavOq4GFawQq1Ugpii/4TzoQdrUoMUsEWLGPxqGwQqIOP8vq2aXTLfPEdm6cZZwbEMxz0ttvpA==}
@@ -1380,17 +1356,14 @@ packages:
   '@plugin-light/vite-plugin-gen-mp-qq-app-id@1.0.0':
     resolution: {integrity: sha512-x0Lx8JdYXr6u7kzXYdVRIo8NPxn1B6fVVM5V5C31Z5HYC/oKRP3JQBFgAcaajiKzocz5WqExYKCPm3We8HL6uQ==}
 
-  '@plugin-light/vite-plugin-gen-version@0.0.9':
-    resolution: {integrity: sha512-cvUkZl8HkKXPzyfy1fXoBxinC2EzwQ2bDJPwjKc+fU/8KyXj4lZWkoVDVnc0jfXPc0B2lHIapExsVGaPakIiug==}
-
   '@plugin-light/vite-plugin-gen-version@1.0.0':
     resolution: {integrity: sha512-+l8s5IR9rBthgVr/qWIl6iBkPmxkZ204tGmdypigl4cNinAFj8n/Ej+5LdCpbAIsHzF7nXbfzg7A1bz8aXJoJQ==}
 
   '@plugin-light/vite-plugin-global-this-polyfill@1.0.0':
     resolution: {integrity: sha512-gnfiCNQJHlMBiYaRule0WCFhUbvkPC5GafNGEVVVJZhYLyzpTvY3iBYYYO/XmRem4eCf+Sc9CVwlOEk8n3qsBA==}
 
-  '@plugin-light/vite-plugin-ifdef@0.0.8':
-    resolution: {integrity: sha512-J6w3B4Ijqn5sQxxhI+7oo2JooYCn9urW3vVpniUHEbFEd6Ef3D8Le4ncxrg0Z6lL32N2/7Opmi/5stf5h87w6A==}
+  '@plugin-light/vite-plugin-ifdef@1.0.0':
+    resolution: {integrity: sha512-Ju1bMGPaw5oCcJjTIX/qtrnllA69CAyWTDKb2t9u4RR845mtN2bFkMy91QeYlP/ogDQDEoWaLQVCXC/cm2/eKQ==}
 
   '@plugin-light/vite-plugin-legacy-polyfill@1.0.0':
     resolution: {integrity: sha512-OhmhgGIb5r7j+CZXqUQB6q+M+vxv0vssH279L+PlHvQCmciAU85jWSGDm/Nm3Bg/KeOuimDrr4cZ/YF8ChyCcA==}
@@ -3653,8 +3626,8 @@ packages:
       '@babel/eslint-parser': '>=6'
       eslint: '>=6'
 
-  eslint-plugin-light@1.0.15:
-    resolution: {integrity: sha512-DuR95VAxp4LvUEwjISIPb68izPSy1uHqfQHEUVeBO6sN8NdLFfAnqbHsYo0qh8GW+/5zg2uwluPOMP4tjLtG/Q==}
+  eslint-plugin-light@1.0.17:
+    resolution: {integrity: sha512-g5rA0ZCW+jLdpuZ7UwvBC1V5bA6DhUtsAkvKmmndtUl/h71OnXko8wj+GGaUdgxTKBCwouLBgYDlb5MFBlqXww==}
     engines: {node: 12.x || 14.x || >= 16}
     peerDependencies:
       '@babel/eslint-parser': '>=6'
@@ -6003,13 +5976,13 @@ packages:
   press-hooks@1.0.0:
     resolution: {integrity: sha512-GmLwCJxGghtK6OWzJp6W3PulRdmmR16UwUbUWSegNwb6gIzu6l6CZqVyvA56lnUJlvWrlT0VZwbXkg3mNpBTAw==}
 
-  press-next@1.1.3:
-    resolution: {integrity: sha512-I3enBWtw/8lyu4YobLykonXxiP7sYSXWtrrWPcvt/gglp9l/6sfKoH059KHjfhwkizpN7zDKeJnmBQPcNofb9Q==}
+  press-next@1.2.5:
+    resolution: {integrity: sha512-CqZRisG5mVTITD4ZfE/h0+Y+yKSli5YXHaoJ92MA1BN8sxy8XwTSJ5FlQFVqKuoubnA83MR6hwjuMWlKQz1I6g==}
     peerDependencies:
       press-ui: ^2.0.12
 
-  press-plus@1.9.13:
-    resolution: {integrity: sha512-zQx6RfqgUhUhTBgD4b2h4zXaObrd2hy97vS1iquH/LtlVsPKxusSc9cM1qyVBfmGgJMUrKK1oPt7ul/Ozfm+Zg==}
+  press-plus@1.9.17:
+    resolution: {integrity: sha512-02AlL1zDCl9CiurK3rWrkxtoy6Y/3+GLYpECXfyUf0KCR/Li4FEPo0MnHWsiKVff+lz+0H6aLo+wczpch9HZrw==}
     peerDependencies:
       press-ui: ^2.1.22
 
@@ -6876,8 +6849,8 @@ packages:
   systemjs@6.15.1:
     resolution: {integrity: sha512-Nk8c4lXvMB98MtbmjX7JwJRgJOL8fluecYCfCeYBznwmpOs8Bf15hLM6z4z71EDAhQVrQrI+wt1aLWSXZq+hXA==}
 
-  t-comm@1.6.22:
-    resolution: {integrity: sha512-bMuPb6cCegyeGZb+cOOeiW8euVK8wX5GQzj94lu7arel2dC0cH96Kqa6UMaFH/nVH2wHTZVr4mtrN9Xb9bo6uw==}
+  t-comm@1.6.23:
+    resolution: {integrity: sha512-eXIcnzTgX0Ow4lAbiYdaKeUurBNkgADObqpFyKT3u7QRsZokB6QzdKlzquZBFlRTBFflWkmOfGqN6ccDkxvmGQ==}
     hasBin: true
 
   table@6.9.0:
@@ -8885,13 +8858,13 @@ snapshots:
 
   '@plugin-light/import-meta-resolve@0.0.2':
     dependencies:
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/import-meta-resolve@1.0.0':
     dependencies:
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -8907,17 +8880,10 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/preprocess@0.0.4':
-    dependencies:
-      '@plugin-light/shared': 0.0.14
-      xregexp: 3.1.0
-    transitivePeerDependencies:
-      - debug
-
   '@plugin-light/preprocess@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
       xregexp: 3.1.0
     transitivePeerDependencies:
       - debug
@@ -8950,7 +8916,7 @@ snapshots:
       rollup-plugin-esbuild: 6.2.1(esbuild@0.25.2)(rollup@2.79.2)
       rollup-plugin-external-globals: 0.13.0(rollup@2.79.2)
       rollup-plugin-visualizer: 5.14.0(rollup@2.79.2)
-      t-comm: 1.6.22
+      t-comm: 1.6.23
       tailwindcss: 3.4.17
       vite: 6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1)
       vite-plugin-commonjs: 0.10.4
@@ -9002,7 +8968,7 @@ snapshots:
       chalk: 4.1.2
       progress-bar-webpack-plugin: 2.1.0(webpack@4.47.0)
       script-ext-html-webpack-plugin: 2.1.5(html-webpack-plugin@4.5.2(webpack@4.47.0))(webpack@4.47.0)
-      t-comm: 1.6.22
+      t-comm: 1.6.23
       uni-read-pages: 1.0.5
       webpack-bundle-analyzer: 3.9.0
       workbox-webpack-plugin: 6.6.0(webpack@4.47.0)
@@ -9016,22 +8982,22 @@ snapshots:
       - vue-template-compiler
       - webpack
 
-  '@plugin-light/project-config-vite@1.0.5(@babel/parser@7.27.1)(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))':
+  '@plugin-light/project-config-vite@1.0.6(@babel/parser@7.27.1)(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))':
     dependencies:
-      '@plugin-light/shared': 0.0.20
-      '@plugin-light/vite-plugin-add-code-at-end': 0.0.6
-      '@plugin-light/vite-plugin-alias-for-library': 0.0.7
-      '@plugin-light/vite-plugin-cross-game-style': 0.0.8
-      '@plugin-light/vite-plugin-cross-platform': 0.0.7
-      '@plugin-light/vite-plugin-export-default-in-vue': 0.0.3
-      '@plugin-light/vite-plugin-gen-version': 0.0.9
-      '@plugin-light/vite-plugin-ifdef': 0.0.8
+      '@plugin-light/shared': 1.0.0
+      '@plugin-light/vite-plugin-add-code-at-end': 1.0.0
+      '@plugin-light/vite-plugin-alias-for-library': 1.0.0
+      '@plugin-light/vite-plugin-cross-game-style': 1.0.0
+      '@plugin-light/vite-plugin-cross-platform': 1.0.0
+      '@plugin-light/vite-plugin-export-default-in-vue': 1.0.0
+      '@plugin-light/vite-plugin-gen-version': 1.0.0
+      '@plugin-light/vite-plugin-ifdef': 1.0.0
       '@vitejs/plugin-basic-ssl': 1.2.0(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))
       '@vitejs/plugin-legacy': 5.4.3(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))
       '@vitejs/plugin-vue': 4.6.2(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
       '@vitejs/plugin-vue-jsx': 3.1.0(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
       rollup-plugin-visualizer: 5.14.0(rollup@2.79.2)
-      t-comm: 1.6.22
+      t-comm: 1.6.23
       unplugin-auto-import: 0.18.6(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)
       unplugin-vue-components: 0.27.5(@babel/parser@7.27.1)(rollup@2.79.2)(vue@3.5.13(typescript@5.5.4))
       vite-plugin-cdn-import: 0.3.5(rollup@2.79.2)
@@ -9065,7 +9031,7 @@ snapshots:
       '@plugin-light/webpack-plugin-modify-html': 1.0.0
       filemanager-webpack-plugin: 2.0.5
       prerender-spa-plugin: 3.4.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
       webpack-bundle-analyzer: 3.9.0
       webpack-hooks-shellscripts: 1.0.2
       workbox-webpack-plugin: 6.6.0(webpack@4.47.0)
@@ -9086,33 +9052,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/shared@0.0.11':
-    dependencies:
-      t-comm: 1.6.22
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/shared@0.0.14':
-    dependencies:
-      t-comm: 1.6.22
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/shared@0.0.19':
-    dependencies:
-      t-comm: 1.6.22
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/shared@0.0.20':
-    dependencies:
-      t-comm: 1.6.22
-    transitivePeerDependencies:
-      - debug
-
   '@plugin-light/shared@1.0.0':
     dependencies:
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -9122,29 +9064,23 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-add-code-at-end@0.0.6':
-    dependencies:
-      '@plugin-light/shared': 0.0.11
-    transitivePeerDependencies:
-      - debug
-
   '@plugin-light/vite-plugin-add-code-at-end@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-alias-for-library@0.0.7':
+  '@plugin-light/vite-plugin-alias-for-library@1.0.0':
     dependencies:
-      '@plugin-light/shared': 0.0.11
-      t-comm: 1.6.22
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/vite-plugin-analyze-bundle-file-size@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -9156,21 +9092,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-cross-game-style@0.0.8':
-    dependencies:
-      '@plugin-light/shared': 0.0.11
-    transitivePeerDependencies:
-      - debug
-
   '@plugin-light/vite-plugin-cross-game-style@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/vite-plugin-cross-platform@0.0.7':
-    dependencies:
-      '@plugin-light/shared': 0.0.11
     transitivePeerDependencies:
       - debug
 
@@ -9180,14 +9104,14 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-export-default-in-vue@0.0.3':
+  '@plugin-light/vite-plugin-export-default-in-vue@1.0.0':
     dependencies:
       '@babel/generator': 7.27.1
       '@babel/parser': 7.27.1
       '@babel/traverse': 7.27.1
       '@babel/types': 7.27.1
-      '@plugin-light/shared': 0.0.19
-      t-comm: 1.6.22
+      '@plugin-light/shared': 1.0.0
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -9201,13 +9125,7 @@ snapshots:
   '@plugin-light/vite-plugin-gen-mp-qq-app-id@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
-      t-comm: 1.6.22
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/vite-plugin-gen-version@0.0.9':
-    dependencies:
-      '@plugin-light/shared': 0.0.19
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -9223,10 +9141,10 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/vite-plugin-ifdef@0.0.8':
+  '@plugin-light/vite-plugin-ifdef@1.0.0':
     dependencies:
-      '@plugin-light/preprocess': 0.0.4
-      '@plugin-light/shared': 0.0.19
+      '@plugin-light/preprocess': 1.0.0
+      '@plugin-light/shared': 1.0.0
     transitivePeerDependencies:
       - debug
 
@@ -9240,7 +9158,7 @@ snapshots:
     dependencies:
       '@plugin-light/shared': 1.0.0
       '@plugin-light/webpack-plugin-rem-to-rpx': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -9276,7 +9194,7 @@ snapshots:
       '@plugin-light/shared': 1.0.0
       '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9322,7 +9240,7 @@ snapshots:
       '@plugin-light/shared': 1.0.0
       '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9332,7 +9250,7 @@ snapshots:
       '@plugin-light/shared': 1.0.0
       '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9340,7 +9258,7 @@ snapshots:
   '@plugin-light/webpack-loader-publish@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -9357,7 +9275,7 @@ snapshots:
       '@plugin-light/shared': 1.0.0
       '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9367,7 +9285,7 @@ snapshots:
       '@plugin-light/shared': 1.0.0
       '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9393,7 +9311,7 @@ snapshots:
     dependencies:
       '@plugin-light/shared': 1.0.0
       '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9417,7 +9335,7 @@ snapshots:
   '@plugin-light/webpack-plugin-add-placeholder@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -9436,7 +9354,7 @@ snapshots:
   '@plugin-light/webpack-plugin-custom-preload@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -9446,7 +9364,7 @@ snapshots:
       '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       '@plugin-light/webpack-plugin-add-common-vendor': 1.0.0(vue-template-compiler@2.6.14)
       '@plugin-light/webpack-plugin-dispatch-vue': 1.0.0(vue-template-compiler@2.6.14)
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9456,7 +9374,7 @@ snapshots:
       '@plugin-light/shared': 1.0.0
       '@plugin-light/shared-vue2': 1.0.0(vue-template-compiler@2.6.14)
       '@plugin-light/webpack-plugin-fix-npm-package': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
       - vue-template-compiler
@@ -9464,7 +9382,7 @@ snapshots:
   '@plugin-light/webpack-plugin-fix-import-path@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -9483,14 +9401,14 @@ snapshots:
   '@plugin-light/webpack-plugin-gen-mp-plugin-playground@1.0.1':
     dependencies:
       '@plugin-light/shared': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/webpack-plugin-gen-version@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -9515,14 +9433,14 @@ snapshots:
   '@plugin-light/webpack-plugin-modify-html@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
   '@plugin-light/webpack-plugin-rem-to-rpx@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -9536,7 +9454,7 @@ snapshots:
   '@plugin-light/webpack-plugin-transfer-local-file@1.0.0':
     dependencies:
       '@plugin-light/shared': 1.0.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -9683,18 +9601,18 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@stylelint/postcss-css-in-js@0.37.3(postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39))(postcss@7.0.39)':
+  '@stylelint/postcss-css-in-js@0.37.3(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39)':
     dependencies:
       '@babel/core': 7.26.10
       postcss: 7.0.39
-      postcss-syntax: 0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
+      postcss-syntax: 0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
     transitivePeerDependencies:
       - supports-color
 
-  '@stylelint/postcss-markdown@0.36.2(postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39))(postcss@7.0.39)':
+  '@stylelint/postcss-markdown@0.36.2(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39)':
     dependencies:
       postcss: 7.0.39
-      postcss-syntax: 0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
+      postcss-syntax: 0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
       remark: 13.0.0
       unist-util-find-all-after: 3.0.2
     transitivePeerDependencies:
@@ -12296,17 +12214,17 @@ snapshots:
       eslint: 8.57.1
       minimatch: 10.0.1
       requireindex: 1.2.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
-  eslint-plugin-light@1.0.15(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1):
+  eslint-plugin-light@1.0.17(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1):
     dependencies:
       '@babel/eslint-parser': 7.27.0(@babel/core@7.26.10)(eslint@8.57.1)
       eslint: 8.57.1
       minimatch: 10.0.1
       requireindex: 1.2.0
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -14678,7 +14596,7 @@ snapshots:
     dependencies:
       htmlparser2: 3.10.1
       postcss: 7.0.39
-      postcss-syntax: 0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
+      postcss-syntax: 0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
 
   postcss-html@1.6.0:
     dependencies:
@@ -14759,7 +14677,7 @@ snapshots:
       lodash: 4.17.21
       postcss: 7.0.39
 
-  postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39):
+  postcss-syntax@0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39):
     dependencies:
       postcss: 7.0.39
     optionalDependencies:
@@ -14845,17 +14763,17 @@ snapshots:
 
   press-hooks@1.0.0: {}
 
-  press-next@1.1.3(press-ui@5.0.21):
+  press-next@1.2.5(press-ui@5.0.21):
     dependencies:
       press-ui: 5.0.21
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
-  press-plus@1.9.13(press-ui@5.0.21):
+  press-plus@1.9.17(press-ui@5.0.21):
     dependencies:
       press-ui: 5.0.21
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -15482,7 +15400,7 @@ snapshots:
 
   share-light@1.0.0:
     dependencies:
-      t-comm: 1.6.22
+      t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
@@ -15830,8 +15748,8 @@ snapshots:
 
   stylelint@13.13.1:
     dependencies:
-      '@stylelint/postcss-css-in-js': 0.37.3(postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39))(postcss@7.0.39)
-      '@stylelint/postcss-markdown': 0.36.2(postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39))(postcss@7.0.39)
+      '@stylelint/postcss-css-in-js': 0.37.3(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39)
+      '@stylelint/postcss-markdown': 0.36.2(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39)
       autoprefixer: 9.8.8
       balanced-match: 2.0.0
       chalk: 4.1.2
@@ -15865,7 +15783,7 @@ snapshots:
       postcss-sass: 0.4.4
       postcss-scss: 2.1.1
       postcss-selector-parser: 6.1.2
-      postcss-syntax: 0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
+      postcss-syntax: 0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
       postcss-value-parser: 4.2.0
       resolve-from: 5.0.0
       slash: 3.0.0
@@ -16005,7 +15923,7 @@ snapshots:
 
   systemjs@6.15.1: {}
 
-  t-comm@1.6.22:
+  t-comm@1.6.23:
     dependencies:
       '@babel/runtime': 7.27.0
       axios: 1.8.4(debug@4.4.0)
