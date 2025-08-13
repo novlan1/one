@@ -31,10 +31,10 @@ importers:
         version: 1.0.0
       press-next:
         specifier: ^1.2.5
-        version: 1.2.5(press-ui@5.0.26)
+        version: 1.2.5(press-ui@5.0.27)
       press-plus:
         specifier: ^1.9.17
-        version: 1.9.17(press-ui@5.0.26)
+        version: 1.9.17(press-ui@5.0.27)
       press-shared:
         specifier: ^1.0.2
         version: 1.0.2
@@ -45,8 +45,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))
       press-ui:
-        specifier: ^5.0.26
-        version: 5.0.26
+        specifier: ^5.0.27
+        version: 5.0.27
       press-ui-next:
         specifier: ^0.0.18
         version: 0.0.18(vue@3.5.13(typescript@5.5.4))
@@ -6007,8 +6007,8 @@ packages:
     resolution: {integrity: sha512-nLBlEDh1XKHXO/5qBkk3VSlxWImm9SY628n2c5YEpURpwyS8vqANYhztJKPMpkhvWYPTkGD3plNkT1LqRSqWXw==}
     engines: {node: '>=14'}
 
-  press-ui@5.0.26:
-    resolution: {integrity: sha512-7/LIEQ01BZhQfY4VonG+Ry6FMuvsLH1qhZ1Z7UKrOL3FVKIZL0nkvetfZ/CdEpA2X8tC+Cual2HJI6FeFdOHpw==}
+  press-ui@5.0.27:
+    resolution: {integrity: sha512-mhq10EAolrFu8Z/HJfAAarrbOdj2ygn5HCIQkyX6ZZxiYAsSyw7eDNlA/QddsRR0DJLCx/xLDfaff22hPjH4FQ==}
     engines: {node: '>=14'}
 
   prettier-linter-helpers@1.0.0:
@@ -14764,16 +14764,16 @@ snapshots:
 
   press-hooks@1.0.0: {}
 
-  press-next@1.2.5(press-ui@5.0.26):
+  press-next@1.2.5(press-ui@5.0.27):
     dependencies:
-      press-ui: 5.0.26
+      press-ui: 5.0.27
       t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
-  press-plus@1.9.17(press-ui@5.0.26):
+  press-plus@1.9.17(press-ui@5.0.27):
     dependencies:
-      press-ui: 5.0.26
+      press-ui: 5.0.27
       t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
@@ -14795,7 +14795,7 @@ snapshots:
 
   press-ui@2.4.0: {}
 
-  press-ui@5.0.26: {}
+  press-ui@5.0.27: {}
 
   prettier-linter-helpers@1.0.0:
     dependencies:
