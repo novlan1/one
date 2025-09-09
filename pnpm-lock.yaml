@@ -60,8 +60,8 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1
       t-comm:
-        specifier: ^2.0.12
-        version: 2.0.12
+        specifier: ^2.0.16
+        version: 2.0.16
       tdesign-icons-vue-next:
         specifier: ^0.3.5
         version: 0.3.5(vue@3.5.13(typescript@5.5.4))
@@ -205,8 +205,8 @@ importers:
         specifier: 14.16.1
         version: 14.16.1
       stylelint-config-common:
-        specifier: 1.0.14
-        version: 1.0.14
+        specifier: 1.0.16
+        version: 1.0.16
       stylelint-scss:
         specifier: 6.10.0
         version: 6.10.0(stylelint@14.16.1)
@@ -6764,8 +6764,8 @@ packages:
   style-search@0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
 
-  stylelint-config-common@1.0.14:
-    resolution: {integrity: sha512-eARA54tSZSWCq93wM7x21ezOoIXRRO6J+ObICFZxB9AD9545K5ZAJgfSLYrs2DsHgMrR/ZeaEkQ8I6f2mwePyQ==}
+  stylelint-config-common@1.0.16:
+    resolution: {integrity: sha512-KXboSc9hps77lriaHTzd48vW0h4KWDnVymx+8ORUEuU1alnL9HphR/hCXdCVK0JlYF0ELHWLiZ1iXiEKGaaIJQ==}
 
   stylelint-order@4.1.0:
     resolution: {integrity: sha512-sVTikaDvMqg2aJjh4r48jsdfmqLT+nqB1MOsaBnvM3OwLx4S+WXcsxsgk5w18h/OZoxZCxuyXMh61iBHcj9Qiw==}
@@ -6854,8 +6854,8 @@ packages:
     resolution: {integrity: sha512-eXIcnzTgX0Ow4lAbiYdaKeUurBNkgADObqpFyKT3u7QRsZokB6QzdKlzquZBFlRTBFflWkmOfGqN6ccDkxvmGQ==}
     hasBin: true
 
-  t-comm@2.0.12:
-    resolution: {integrity: sha512-V7jh8CGaKjZ/Iy8hYLqWRVFuhgTMSWSWiMe/dydZIxLvaPmbvygnp+oBRJ4WV8ESg81s+hXqQ9RbG33d+jzuAg==}
+  t-comm@2.0.16:
+    resolution: {integrity: sha512-zGIeQtPza5R7W0Qq21ySx9UaGwV0A2mcgNF6TgP2bFjbzOgTeGEdU79caje/2ew2+wbZI4wBjGgdYIwPt3hd3Q==}
     hasBin: true
 
   table@6.9.0:
@@ -15713,7 +15713,7 @@ snapshots:
 
   style-search@0.1.0: {}
 
-  stylelint-config-common@1.0.14:
+  stylelint-config-common@1.0.16:
     dependencies:
       stylelint: 13.13.1
       stylelint-order: 4.1.0(stylelint@13.13.1)
@@ -15941,7 +15941,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  t-comm@2.0.12:
+  t-comm@2.0.16:
     dependencies:
       '@babel/runtime': 7.27.0
       axios: 1.8.4(debug@4.4.0)
