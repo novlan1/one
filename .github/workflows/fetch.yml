@@ -1,6 +1,9 @@
 name: 'Fetch Data'
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     # UTC 时间，并非北京时间
     - cron: '0 0,4,6,23 * * *'
