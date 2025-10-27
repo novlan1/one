@@ -30,8 +30,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       press-next:
-        specifier: 1.3.0-beta.32
-        version: 1.3.0-beta.32(press-ui@5.0.27)
+        specifier: 1.3.0-beta.37
+        version: 1.3.0-beta.37(press-ui@5.0.27)
       press-plus:
         specifier: ^1.9.17
         version: 1.9.17(press-ui@5.0.27)
@@ -66,8 +66,8 @@ importers:
         specifier: ^0.3.5
         version: 0.3.5(vue@3.5.13(typescript@5.5.4))
       tdesign-uniapp:
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.3.1
+        version: 0.3.1
       tdesign-vue-next:
         specifier: ^1.11.5
         version: 1.11.5(vue@3.5.13(typescript@5.5.4))
@@ -5913,8 +5913,8 @@ packages:
   press-hooks@1.0.0:
     resolution: {integrity: sha512-GmLwCJxGghtK6OWzJp6W3PulRdmmR16UwUbUWSegNwb6gIzu6l6CZqVyvA56lnUJlvWrlT0VZwbXkg3mNpBTAw==}
 
-  press-next@1.3.0-beta.32:
-    resolution: {integrity: sha512-iljGMRDNRXXPVxhRVqjjJ3apZCpBmMB5Kl6hqHMPUGUvwYNqy6EqGNCqiUHEIVbBnwNta8MFyv0jroilaFZ9ZA==}
+  press-next@1.3.0-beta.37:
+    resolution: {integrity: sha512-Hc8Ssq2qRvNzL4ZqtNQVruhFWmn0Y1yIHi0mc3rKMwJB0mbA2xVuvLJgn5+0wyibLVbmnYkJa+8UUMfSJ7MD5g==}
     peerDependencies:
       press-ui: ^2.0.12
 
@@ -6825,8 +6825,8 @@ packages:
     peerDependencies:
       vue: ^3.0.0
 
-  tdesign-uniapp@0.3.0:
-    resolution: {integrity: sha512-Vw/yLpt6YkhICLX9WYz2rIbGe9/3sBaa4H/t2JROAMCsJLYwT/RhAerqK12a+aPhY/Kz48bClmeIKV7oFhWXGw==}
+  tdesign-uniapp@0.3.1:
+    resolution: {integrity: sha512-XGNUKrxj+L9YoWJBYL+WD7mBpk5/7r3tcjUbcPanOSTHkBnmNVman1fTb2elY2LA3fS799gyfnjYfrbJDRF1YA==}
 
   tdesign-vue-next@1.11.5:
     resolution: {integrity: sha512-o4hR8GkP2lD3S6xTSbPJWUypdPhzmHuq4EnB/IyEYXWFHSdO6zuXoBvMntd41NqLjoXYOKj3VzRU2ZmmIvxuLQ==}
@@ -14608,7 +14608,7 @@ snapshots:
 
   press-hooks@1.0.0: {}
 
-  press-next@1.3.0-beta.32(press-ui@5.0.27):
+  press-next@1.3.0-beta.37(press-ui@5.0.27):
     dependencies:
       press-ui: 5.0.27
       t-comm: 1.6.23
@@ -15863,7 +15863,7 @@ snapshots:
       '@babel/runtime': 7.27.0
       vue: 3.5.13(typescript@5.5.4)
 
-  tdesign-uniapp@0.3.0: {}
+  tdesign-uniapp@0.3.1: {}
 
   tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)):
     dependencies:
