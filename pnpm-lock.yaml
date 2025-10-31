@@ -10,7 +10,7 @@ importers:
     dependencies:
       axios:
         specifier: ^1.8.4
-        version: 1.8.4(debug@4.4.0)
+        version: 1.8.4
       cheerio:
         specifier: ^1.0.0
         version: 1.0.0
@@ -1292,9 +1292,6 @@ packages:
 
   '@plugin-light/vite-plugin-gen-mp-qq-app-id@1.0.0':
     resolution: {integrity: sha512-x0Lx8JdYXr6u7kzXYdVRIo8NPxn1B6fVVM5V5C31Z5HYC/oKRP3JQBFgAcaajiKzocz5WqExYKCPm3We8HL6uQ==}
-
-  '@plugin-light/vite-plugin-gen-version@1.0.0':
-    resolution: {integrity: sha512-+l8s5IR9rBthgVr/qWIl6iBkPmxkZ204tGmdypigl4cNinAFj8n/Ej+5LdCpbAIsHzF7nXbfzg7A1bz8aXJoJQ==}
 
   '@plugin-light/vite-plugin-gen-version@1.0.1':
     resolution: {integrity: sha512-u5p7KqxsFQR/XtjLzNSHmcg8sGiPmQMREbJebTudaJ9ri13g1Q6QV46Qg862cMX2XNTF+35rb2F9n4Umnqwj1w==}
@@ -8760,7 +8757,7 @@ snapshots:
       '@plugin-light/vite-plugin-cross-platform': 1.0.0
       '@plugin-light/vite-plugin-fix-uni-dir': 1.0.0
       '@plugin-light/vite-plugin-gen-mp-qq-app-id': 1.0.0
-      '@plugin-light/vite-plugin-gen-version': 1.0.0
+      '@plugin-light/vite-plugin-gen-version': 1.0.1
       '@plugin-light/vite-plugin-global-this-polyfill': 1.0.0
       '@plugin-light/vite-plugin-legacy-polyfill': 1.0.0
       '@plugin-light/vite-plugin-rem-to-rpx': 1.0.0
@@ -8985,12 +8982,6 @@ snapshots:
     dependencies:
       '@plugin-light/shared': 1.0.1
       t-comm: 1.6.23
-    transitivePeerDependencies:
-      - debug
-
-  '@plugin-light/vite-plugin-gen-version@1.0.0':
-    dependencies:
-      '@plugin-light/shared': 1.0.1
     transitivePeerDependencies:
       - debug
 
@@ -10585,7 +10576,7 @@ snapshots:
 
   aws4@1.13.2: {}
 
-  axios@1.13.1:
+  axios@1.13.1(debug@4.4.0):
     dependencies:
       follow-redirects: 1.15.9(debug@4.4.0)
       form-data: 4.0.4
@@ -10593,7 +10584,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  axios@1.8.4(debug@4.4.0):
+  axios@1.8.4:
     dependencies:
       follow-redirects: 1.15.9(debug@4.4.0)
       form-data: 4.0.2
@@ -14667,7 +14658,7 @@ snapshots:
 
   press-tdesign-vue-next@1.0.12(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4))):
     dependencies:
-      axios: 1.13.1
+      axios: 1.13.1(debug@4.4.0)
       prismjs: 1.30.0
       tdesign-vue-next: 1.11.5(vue@3.5.13(typescript@5.5.4))
       tslib: 2.8.1
@@ -15817,7 +15808,7 @@ snapshots:
   t-comm@1.6.23:
     dependencies:
       '@babel/runtime': 7.27.0
-      axios: 1.8.4(debug@4.4.0)
+      axios: 1.13.1(debug@4.4.0)
       cheerio: 1.0.0
       commander: 10.0.1
       cron-parser: 4.9.0
@@ -15830,7 +15821,7 @@ snapshots:
   t-comm@3.0.3:
     dependencies:
       '@babel/runtime': 7.27.0
-      axios: 1.8.4(debug@4.4.0)
+      axios: 1.13.1(debug@4.4.0)
       cheerio: 1.0.0
       commander: 10.0.1
       cron-parser: 4.9.0
@@ -16474,7 +16465,7 @@ snapshots:
 
   vite-plugin-mkcert@1.17.8(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1)):
     dependencies:
-      axios: 1.8.4(debug@4.4.0)
+      axios: 1.13.1(debug@4.4.0)
       debug: 4.4.0
       picocolors: 1.1.1
       vite: 6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1)
