@@ -66,8 +66,8 @@ importers:
         specifier: ^0.3.5
         version: 0.3.5(vue@3.5.13(typescript@5.5.4))
       tdesign-uniapp:
-        specifier: 0.5.0
-        version: 0.5.0
+        specifier: 0.5.1
+        version: 0.5.1
       tdesign-vue-next:
         specifier: ^1.11.5
         version: 1.11.5(vue@3.5.13(typescript@5.5.4))
@@ -6836,8 +6836,8 @@ packages:
     peerDependencies:
       vue: ^3.0.0
 
-  tdesign-uniapp@0.5.0:
-    resolution: {integrity: sha512-oHW9U6ied/mLrMfwtSk9l5b44FSsgm9JqjEBpG+a5l2dPF2rrfA6g3BkAqCuTyptr3N99+rKquqiautvF+IuJg==}
+  tdesign-uniapp@0.5.1:
+    resolution: {integrity: sha512-BprIv3DKb9McPvqyarqsteooGcZuvxrmvODcUhZuDQbt4IjFPrMXndYW6VcWUbv5Ax4eQ6Wb1AOESHJf0ejVAQ==}
 
   tdesign-vue-next@1.11.5:
     resolution: {integrity: sha512-o4hR8GkP2lD3S6xTSbPJWUypdPhzmHuq4EnB/IyEYXWFHSdO6zuXoBvMntd41NqLjoXYOKj3VzRU2ZmmIvxuLQ==}
@@ -9457,7 +9457,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@stylelint/postcss-css-in-js@0.37.3(postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39))(postcss@7.0.39)':
+  '@stylelint/postcss-css-in-js@0.37.3(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39)':
     dependencies:
       '@babel/core': 7.26.10
       postcss: 7.0.39
@@ -9465,7 +9465,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@stylelint/postcss-markdown@0.36.2(postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39))(postcss@7.0.39)':
+  '@stylelint/postcss-markdown@0.36.2(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39)':
     dependencies:
       postcss: 7.0.39
       postcss-syntax: 0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
@@ -15630,8 +15630,8 @@ snapshots:
 
   stylelint@13.13.1:
     dependencies:
-      '@stylelint/postcss-css-in-js': 0.37.3(postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39))(postcss@7.0.39)
-      '@stylelint/postcss-markdown': 0.36.2(postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39))(postcss@7.0.39)
+      '@stylelint/postcss-css-in-js': 0.37.3(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39)
+      '@stylelint/postcss-markdown': 0.36.2(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39)
       autoprefixer: 9.8.8
       balanced-match: 2.0.0
       chalk: 4.1.2
@@ -15900,7 +15900,7 @@ snapshots:
       '@babel/runtime': 7.27.0
       vue: 3.5.13(typescript@5.5.4)
 
-  tdesign-uniapp@0.5.0: {}
+  tdesign-uniapp@0.5.1: {}
 
   tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)):
     dependencies:
