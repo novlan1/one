@@ -66,8 +66,8 @@ importers:
         specifier: ^0.3.5
         version: 0.3.5(vue@3.5.13(typescript@5.5.4))
       tdesign-uniapp:
-        specifier: 0.4.6-beta.4
-        version: 0.4.6-beta.4
+        specifier: 0.5.0
+        version: 0.5.0
       tdesign-vue-next:
         specifier: ^1.11.5
         version: 1.11.5(vue@3.5.13(typescript@5.5.4))
@@ -6836,8 +6836,8 @@ packages:
     peerDependencies:
       vue: ^3.0.0
 
-  tdesign-uniapp@0.4.6-beta.4:
-    resolution: {integrity: sha512-Vub5XBTL/So9gqoTiqWc09x/erfjc2JHe1TtlWQeRKMqOpCQ7Lv3Okvb+sACbzBCAjr07JiTWDFsVtD+sRyUoA==}
+  tdesign-uniapp@0.5.0:
+    resolution: {integrity: sha512-oHW9U6ied/mLrMfwtSk9l5b44FSsgm9JqjEBpG+a5l2dPF2rrfA6g3BkAqCuTyptr3N99+rKquqiautvF+IuJg==}
 
   tdesign-vue-next@1.11.5:
     resolution: {integrity: sha512-o4hR8GkP2lD3S6xTSbPJWUypdPhzmHuq4EnB/IyEYXWFHSdO6zuXoBvMntd41NqLjoXYOKj3VzRU2ZmmIvxuLQ==}
@@ -15900,7 +15900,7 @@ snapshots:
       '@babel/runtime': 7.27.0
       vue: 3.5.13(typescript@5.5.4)
 
-  tdesign-uniapp@0.4.6-beta.4: {}
+  tdesign-uniapp@0.5.0: {}
 
   tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)):
     dependencies:
