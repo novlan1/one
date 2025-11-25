@@ -82,6 +82,7 @@ async function main() {
     linkIndex: lastLinkIndex,
     vol: lastVol,
   } = getLastLinkIndex();
+  console.log('>>> lastVol: ', lastVol);
 
   console.log('>>> lastLinkIndex: ', lastLinkIndex);
   const min = lastLinkIndex + MORE_VOL_NUM[0];
