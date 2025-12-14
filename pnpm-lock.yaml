@@ -9597,7 +9597,7 @@ snapshots:
       graphemer: 1.4.0
       ignore: 5.3.2
       natural-compare-lite: 1.4.0
-      semver: 7.7.1
+      semver: 7.7.3
       tsutils: 3.21.0(typescript@5.5.4)
     optionalDependencies:
       typescript: 5.5.4
