@@ -1,7 +1,13 @@
 const https = require('https');
+
 const path = require('path');
 
+const axios = require('axios');
+
 const cheerio = require('cheerio');
+const agent = new https.Agent({
+  rejectUnauthorized: false, // 关键：忽略所有证书错误
+});
 const { writeFileSync, readFileSync, timeStampFormat } = require('t-comm');
 
 
@@ -40,39 +46,36 @@ function getLastLinkIndex() {
 
 function fetchRawText({ url, linkIndex }) {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
-    // 分段返回的 自己拼接
-      let html = '';
+    const parseData = (html) => {
+      const $ = cheerio.load(html);
+      try {
+        const pic = $('.one-imagen img').attr('src')
+          .trim();
+        const text = getInnerText($('.one-cita-wrapper .one-cita'));
+        const vol = +getInnerText($('.one-titulo')).replace('VOL.', '');
+        const month = getInnerText($('.one-pubdate .may'));
+        const date = getInnerText($('.one-pubdate .dom'));
 
-      // 有数据产生的时候 拼接
-      res.on('data', (chunk) => {
-        html += chunk;
+        resolve({
+          text,
+          pic,
+          vol,
+          month,
+          date,
+          linkIndex,
+        });
+      } catch (err) {
+        reject(err);
+      }
+    };
+
+    axios.get(url, { httpsAgent: agent })
+      .then((res) => {
+        parseData(res.data);
+      })
+      .catch((err) => {
+        reject(err);
       });
-
-      // 拼接完成
-      res.on('end', () => {
-        const $ = cheerio.load(html);
-        try {
-          const pic = $('.one-imagen img').attr('src')
-            .trim();
-          const text = getInnerText($('.one-cita-wrapper .one-cita'));
-          const vol = +getInnerText($('.one-titulo')).replace('VOL.', '');
-          const month = getInnerText($('.one-pubdate .may'));
-          const date = getInnerText($('.one-pubdate .dom'));
-
-          resolve({
-            text,
-            pic,
-            vol,
-            month,
-            date,
-            linkIndex,
-          });
-        } catch (err) {
-          reject(err);
-        }
-      });
-    });
   });
 }
 
