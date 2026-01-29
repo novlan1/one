@@ -54,8 +54,8 @@ importers:
         specifier: ^6.14.0
         version: 6.14.0
       share-light:
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^1.0.2
+        version: 1.0.2
       swiper-next:
         specifier: ^0.1.1
         version: 0.1.1
@@ -6446,8 +6446,8 @@ packages:
     resolution: {integrity: sha512-QMEp5B7cftE7APOjk5Y6xgrbWu+WkLVQwk8JNjZ8nKRciZaByEW6MubieAiToS7+dwvrjGhH8jRXz3MVd0AYqQ==}
     hasBin: true
 
-  share-light@1.0.0:
-    resolution: {integrity: sha512-Zwl/i+YNF+g5f6ZuMwV2o8ysxTMpHMvo68/XoDimH0k9z1YUArx7gmHNzZbNlsSveH9W1HpqCR6rfGv54OqSYw==}
+  share-light@1.0.2:
+    resolution: {integrity: sha512-YBjOSvKpolKxc1BBp2J+wA6SutqNYo7xRNNx0qF5K4B790QyoMf4EzYMBXV3A8Tv1jmZ2tqBUIguetfEt8xCIg==}
     engines: {node: 12.x || 14.x || >= 16}
 
   shebang-command@1.2.0:
@@ -15289,9 +15289,9 @@ snapshots:
       inherits: 2.0.4
       safe-buffer: 5.2.1
 
-  share-light@1.0.0:
+  share-light@1.0.2:
     dependencies:
-      t-comm: 1.6.23
+      t-comm: 3.0.25
     transitivePeerDependencies:
       - debug
 
