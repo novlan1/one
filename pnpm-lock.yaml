@@ -42,8 +42,8 @@ importers:
         specifier: ^2.2.8
         version: 2.2.8
       press-tdesign-vue-next:
-        specifier: 1.0.21
-        version: 1.0.21(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))
+        specifier: 1.0.22
+        version: 1.0.22(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))
       press-ui:
         specifier: ^5.0.27
         version: 5.0.27
@@ -5941,8 +5941,8 @@ packages:
     resolution: {integrity: sha512-l4wiQc/Dr5Es7WMLtlb9ovqLS2EcRB8/bkAjF6Nr6ntqptnkZyFBXFQmTZWWXLYV2beGlHx6Np/hkXzTH6x9mg==}
     engines: {HBuilderX: ^3.1.0}
 
-  press-tdesign-vue-next@1.0.21:
-    resolution: {integrity: sha512-sg+wEbOPISi2ruW2acg9cnnErUs0ovnkMQB1Vgzz4aNrARMmEQ+YlpWIPrttzAXS0i6qFy1jNEQ3efK//OiKAg==}
+  press-tdesign-vue-next@1.0.22:
+    resolution: {integrity: sha512-L48NfOKZaEzsDN8geU/T2PpArwZqygtiTAVikS2J+3yiXL9uZ9MFkEyHwaFG/lRjohZrpD9Jg6G+l3+MzVDqeQ==}
     peerDependencies:
       tdesign-vue-next: '*'
 
@@ -14626,7 +14626,7 @@ snapshots:
 
   press-swiper@2.2.8: {}
 
-  press-tdesign-vue-next@1.0.21(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4))):
+  press-tdesign-vue-next@1.0.22(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4))):
     dependencies:
       axios: 1.13.1(debug@4.4.0)
       prismjs: 1.30.0
