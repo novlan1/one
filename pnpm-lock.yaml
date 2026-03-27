@@ -42,8 +42,8 @@ importers:
         specifier: ^2.2.8
         version: 2.2.8
       press-tdesign-vue-next:
-        specifier: 1.0.22
-        version: 1.0.22(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))
+        specifier: 1.0.23
+        version: 1.0.23(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4)))
       press-ui:
         specifier: ^5.0.27
         version: 5.0.27
@@ -1639,6 +1639,9 @@ packages:
 
   '@tdesign/uniapp@0.7.3':
     resolution: {integrity: sha512-9rEClT6bUWwZw5tt+vmNU5rW0jPVJhJlsl8Dxvmmf9iyyLhdk9bGVfz9DeH+R3kykAIft0rz4l2lAjsolpIYkQ==}
+
+  '@tdesign/uniapp@0.8.0':
+    resolution: {integrity: sha512-JEtDkkr5+PtBm5qZ5FzcywTmFFHfmvtchq+95z6lwSDWu3epsqNiuC/BgyvDKsmdTpPuCpncW7DYHvk0F/9N5w==}
 
   '@trysound/sax@0.2.0':
     resolution: {integrity: sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==}
@@ -6043,8 +6046,8 @@ packages:
     resolution: {integrity: sha512-l4wiQc/Dr5Es7WMLtlb9ovqLS2EcRB8/bkAjF6Nr6ntqptnkZyFBXFQmTZWWXLYV2beGlHx6Np/hkXzTH6x9mg==}
     engines: {HBuilderX: ^3.1.0}
 
-  press-tdesign-vue-next@1.0.22:
-    resolution: {integrity: sha512-L48NfOKZaEzsDN8geU/T2PpArwZqygtiTAVikS2J+3yiXL9uZ9MFkEyHwaFG/lRjohZrpD9Jg6G+l3+MzVDqeQ==}
+  press-tdesign-vue-next@1.0.23:
+    resolution: {integrity: sha512-6YxtJcLeSsX2yimLWCgjvhGT3AqA5Qp3g+uzRr7Kg39ZEldRjufdVjXbPnlSdT/LhA7jXCwL2xXY/MnL8JDp7Q==}
     peerDependencies:
       tdesign-vue-next: '*'
 
@@ -6991,6 +6994,7 @@ packages:
 
   tdesign-uniapp-chat@0.1.3:
     resolution: {integrity: sha512-tAKpE+Ip31+LLj4r+9H/b1NzOwnLn5emXr3FqgQZOL1L3S7YOJVCKdGJ0e/FMePBtXFE38UmRmwz7W5FKc5gUA==}
+    deprecated: This package has been renamed to @tdesign/uniapp-chat. Please install @tdesign/uniapp-chat instead. See https://tdesign.tencent.com/uniapp-chat/getting-started/ for more details.
 
   tdesign-uniapp@0.3.2:
     resolution: {integrity: sha512-/ZeeRciNELo6Y0ODa8/351GJ/L3exAjyyN+tio6ljQuID5TrOHIrA02DLr3GyRMncjRHAoQHkA3d6llGP8ZA4w==}
@@ -9759,6 +9763,8 @@ snapshots:
   '@tdesign/uniapp-chat@0.2.1': {}
 
   '@tdesign/uniapp@0.7.3': {}
+
+  '@tdesign/uniapp@0.8.0': {}
 
   '@trysound/sax@0.2.0': {}
 
@@ -15041,10 +15047,12 @@ snapshots:
 
   press-swiper@2.2.8: {}
 
-  press-tdesign-vue-next@1.0.22(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4))):
+  press-tdesign-vue-next@1.0.23(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4))):
     dependencies:
+      '@tdesign/uniapp': 0.8.0
       axios: 1.13.1(debug@4.4.0)
       prismjs: 1.30.0
+      t-comm: 3.1.15
       tdesign-uniapp: 0.3.2
       tdesign-uniapp-chat: 0.1.3
       tdesign-vue-next: 1.11.5(vue@3.5.13(typescript@5.5.4))
