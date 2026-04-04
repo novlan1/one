@@ -82,8 +82,8 @@ importers:
         version: 4.5.0(vue@3.5.13(typescript@5.5.4))
     devDependencies:
       '@plugin-light/import-meta-resolve':
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: 1.0.1-beta.0
+        version: 1.0.1-beta.0
       '@plugin-light/preprocess':
         specifier: ^1.0.0
         version: 1.0.0
@@ -94,14 +94,14 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1(html-webpack-plugin@4.5.2(webpack@4.47.0))(vue-template-compiler@2.6.14)(webpack@4.47.0)
       '@plugin-light/project-config-vite':
-        specifier: ^1.0.8
-        version: 1.0.8(@babel/parser@7.27.1)(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
+        specifier: ^1.0.9
+        version: 1.0.9(@babel/parser@7.27.1)(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
       '@plugin-light/project-config-vue':
         specifier: ^1.0.2
         version: 1.0.2(vue-template-compiler@2.6.14)(webpack@4.47.0)
       '@plugin-light/shared':
-        specifier: ^1.0.24
-        version: 1.0.24
+        specifier: ^1.0.20
+        version: 1.0.20
       '@plugin-light/shared-vue2':
         specifier: ^1.0.1
         version: 1.0.1(vue-template-compiler@2.6.14)
@@ -148,11 +148,11 @@ importers:
         specifier: 8.57.1
         version: 8.57.1
       eslint-config-light:
-        specifier: ^1.5.6
-        version: 1.5.6(typescript@5.5.4)
+        specifier: ^1.5.2
+        version: 1.5.2(typescript@5.5.4)
       eslint-config-light-vue3:
-        specifier: ^1.0.12
-        version: 1.0.12(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4))(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(prettier@3.5.3)(typescript@5.5.4)
+        specifier: ^1.0.6
+        version: 1.0.6(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4))(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(prettier@3.5.3)(typescript@5.5.4)
       eslint-config-rookie:
         specifier: ^1.1.3
         version: 1.1.3(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)
@@ -169,8 +169,8 @@ importers:
         specifier: '25'
         version: 25.7.0(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4)
       eslint-plugin-light:
-        specifier: 1.0.22
-        version: 1.0.22(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1)
+        specifier: 1.0.16
+        version: 1.0.16(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1)
       eslint-plugin-prettier:
         specifier: 4.2.1
         version: 4.2.1(eslint-config-prettier@8.10.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.5.3)
@@ -208,8 +208,8 @@ importers:
         specifier: 14.16.1
         version: 14.16.1
       stylelint-config-common:
-        specifier: 1.0.16
-        version: 1.0.16
+        specifier: 1.0.15
+        version: 1.0.15
       stylelint-scss:
         specifier: 6.10.0
         version: 6.10.0(stylelint@14.16.1)
@@ -1236,11 +1236,15 @@ packages:
     resolution: {integrity: sha512-EoZ26Ryq8wJET35K0ksE9BUXjECrpMDzd/+r9BvHh+GID4vwCx0dTOTkrbOrSW4w0Apj03udLGbiqThXDUmEGQ==}
     engines: {node: 12.x || 14.x || >= 16}
 
+  '@plugin-light/const@0.1.6':
+    resolution: {integrity: sha512-Ak/Ayj2K+hYVzTA9gAJE7hDVMaMaAchnwODTnieRZ+c5l4Z5N14TacZyIfvuuYhR6Ae+61DZaqEyyYjSHi/eFg==}
+    engines: {node: 12.x || 14.x || >= 16}
+
   '@plugin-light/import-meta-resolve@0.0.2':
     resolution: {integrity: sha512-fGuEA685aQWMx/gEOeuxPVwJj75opHZVPXaIhay9HvEdpmb13EtjFgkOBJ//C6XMYu5k22tPcJjoHruRjTix0g==}
 
-  '@plugin-light/import-meta-resolve@1.0.0':
-    resolution: {integrity: sha512-uyywU4WDnUYh8dlK4KPhdoM8jzqyPIzYBGVY7N4zmay4U8xxJ2po0fQu/rgU5t69G+75ZNbIdTjTuOu634LsDg==}
+  '@plugin-light/import-meta-resolve@1.0.1-beta.0':
+    resolution: {integrity: sha512-U6eZ7CRnOUZJkARJHqR5bh7MM2YSTjXM1jOf6Bq709psvK5XattJMRJhD1gDSkd2cfwYw4nbPrZes58XeeS02g==}
 
   '@plugin-light/postcss-plugin-remove-selector@1.0.0':
     resolution: {integrity: sha512-iEhYpshut9lJUvvIirdyYFE9D5oFhvRSePbdseVSDnDBCeeae2k+7rGRr0fS/hYskFADLxLSRfuFwWLIdx1Phw==}
@@ -1259,8 +1263,8 @@ packages:
   '@plugin-light/project-config-uni-vue@1.0.1':
     resolution: {integrity: sha512-//WAsQuXzztC+aOYLHyGEmjsyrn14lMzt0p8DujsDuj89ZO2BbfPFHt9k4N/RKpHMfs16Bsv5at8rFt9Yp0OMA==}
 
-  '@plugin-light/project-config-vite@1.0.8':
-    resolution: {integrity: sha512-MD5zo64rETM6xo6d3vMMW9aqZ0Yu9ES6hgk9qEIYX0JmqLlh69LIfyjDbcJt+kJZ2nfLoOy1wI29BBR/GkNCBA==}
+  '@plugin-light/project-config-vite@1.0.9':
+    resolution: {integrity: sha512-kdhBma75/h5lU/gibR8fnrj0yOv7x4pVRL4Leq7bKxGrBhWvSoswcFaR3ZJOzZKAkmyAizu1hPbQ+ly5mUQgWA==}
 
   '@plugin-light/project-config-vue@1.0.2':
     resolution: {integrity: sha512-Tb5lBHDqSEPzxT3dVNZY8cjsRgcqvVDYkQTIzCw3IKwMd7GcKdLpYQI9KoSAHhccqsY1ZeOqzipavs77JYD3tA==}
@@ -1269,6 +1273,9 @@ packages:
     resolution: {integrity: sha512-FnHbJdyixYd1UIdw1Ql/ALhWr0TKIb+b7GHHvo6tpa+PiWlTWOmsngInonJJHcDIa21VC5yJ4Twab/j2GPDKew==}
     peerDependencies:
       vue-template-compiler: 2.6.14
+
+  '@plugin-light/shared@1.0.20':
+    resolution: {integrity: sha512-pi7ypCyWuJ4daWUzZaZ6uRgwph8WwHFGw2WR54qVSir1lzUfnzXYzgOy1l0YQ6KqEdo+M4VbMdX/L6CLZvLSWA==}
 
   '@plugin-light/shared@1.0.24':
     resolution: {integrity: sha512-f52YGQOE+YytErm+bYhaJLtXxFu9OFdTUy7D0a912qu7uhU7f1aBYNrkczmywCJCi+QPYwAfZ3Ehjvd7K8js/w==}
@@ -3490,12 +3497,12 @@ packages:
       eslint: ^7.32.0 || ^8.2.0
       eslint-plugin-import: ^2.25.2
 
-  eslint-config-light-vue3@1.0.12:
-    resolution: {integrity: sha512-/NOxf4S6bH4WCcp4+m8fv1wST8n85g64fDyjubzJ5hyv+wtBU4wHB4VOJFxVQNgrwORJGt1rboXKXHAJNfvZyg==}
+  eslint-config-light-vue3@1.0.6:
+    resolution: {integrity: sha512-Omngn+JMEpdSsigpZFtyCC9JquorT/B/KDSMS4/w/Cdkbrihwn11IDJAn73Crbvf2xhfPQ7klk+J6+iJ3NGBrw==}
     engines: {node: 12.x || 14.x || >= 16}
 
-  eslint-config-light@1.5.6:
-    resolution: {integrity: sha512-d8jul2oHO/jU9CGInXzxDyPX+POg+TZGmT0k1G8XKF6THA1sVyCUdi4XvT6TJjM6MO5LfgrM5x/eBtldqxT55A==}
+  eslint-config-light@1.5.2:
+    resolution: {integrity: sha512-MqyJtFCWLHsx1q7fRI5Pu9Dw8qf1E6YGS42HiXX0PM7hfev2MQazFS5bfEZHa7AtezmlJ00XJjU57QdNlfaK0A==}
     engines: {node: 12.x || 14.x || >= 16}
 
   eslint-config-prettier@8.10.0:
@@ -3600,22 +3607,8 @@ packages:
       jest:
         optional: true
 
-  eslint-plugin-light@1.0.21:
-    resolution: {integrity: sha512-ir+9q5Tjc2BgydN6bhQ4GrtMAdhkOZRW8Siy/Osyck6VWvsH5kihq2wQvjJRWTcnrBk4KR2gMBdMmVhFSTPEhQ==}
-    engines: {node: 12.x || 14.x || >= 16}
-    peerDependencies:
-      '@babel/eslint-parser': '>=6'
-      eslint: '>=6'
-
-  eslint-plugin-light@1.0.22:
-    resolution: {integrity: sha512-xM1GIkpY3lfxJtpJGYmuqYkmGTd2spKFpaBELtCIdLymre7Jo3zDdfEzD88o9wFoB7w0/IkdSogBl3sRnderSg==}
-    engines: {node: 12.x || 14.x || >= 16}
-    peerDependencies:
-      '@babel/eslint-parser': '>=6'
-      eslint: '>=6'
-
-  eslint-plugin-light@1.0.5:
-    resolution: {integrity: sha512-xJCpe1It8MMA4h/SULaQkgUfq+465KuwNNUk8CMwEkk/E9paZUXsSSClzCWphY2gx1iEG1tBfBAYJzDnj/kVMQ==}
+  eslint-plugin-light@1.0.16:
+    resolution: {integrity: sha512-RJ9OiNpCaxqRP6mTifX+S6uEF3iKH4Ym/EQAMAjkd7duZRAWt81YyioVlkjShwhDyoa55wBS2J0PoqN6/lJobQ==}
     engines: {node: 12.x || 14.x || >= 16}
     peerDependencies:
       '@babel/eslint-parser': '>=6'
@@ -6864,8 +6857,8 @@ packages:
   style-search@0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
 
-  stylelint-config-common@1.0.16:
-    resolution: {integrity: sha512-KXboSc9hps77lriaHTzd48vW0h4KWDnVymx+8ORUEuU1alnL9HphR/hCXdCVK0JlYF0ELHWLiZ1iXiEKGaaIJQ==}
+  stylelint-config-common@1.0.15:
+    resolution: {integrity: sha512-RvvqYc2WMZOXiptlovczK0iLn8njqAkFqnmvwf4i0WkXtbXcd66GBr1igJRfL08c9+AHZ064QSiFCrtjasJLRw==}
 
   stylelint-order@4.1.0:
     resolution: {integrity: sha512-sVTikaDvMqg2aJjh4r48jsdfmqLT+nqB1MOsaBnvM3OwLx4S+WXcsxsgk5w18h/OZoxZCxuyXMh61iBHcj9Qiw==}
@@ -8907,15 +8900,22 @@ snapshots:
       '@tdesign/uniapp': 0.7.3
       '@tdesign/uniapp-chat': 0.2.1
 
+  '@plugin-light/const@0.1.6':
+    dependencies:
+      '@tdesign/uniapp': 0.7.3
+      '@tdesign/uniapp-chat': 0.2.1
+
   '@plugin-light/import-meta-resolve@0.0.2':
     dependencies:
       t-comm: 1.6.23
     transitivePeerDependencies:
       - debug
 
-  '@plugin-light/import-meta-resolve@1.0.0':
+  '@plugin-light/import-meta-resolve@1.0.1-beta.0':
     dependencies:
-      t-comm: 1.6.23
+      '@tdesign/uniapp': 0.7.3
+      '@tdesign/uniapp-chat': 0.2.1
+      t-comm: 3.2.3
     transitivePeerDependencies:
       - debug
 
@@ -9036,7 +9036,7 @@ snapshots:
       - vue-template-compiler
       - webpack
 
-  '@plugin-light/project-config-vite@1.0.8(@babel/parser@7.27.1)(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))':
+  '@plugin-light/project-config-vite@1.0.9(@babel/parser@7.27.1)(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))':
     dependencies:
       '@plugin-light/shared': 1.0.24
       '@plugin-light/vite-plugin-add-code-at-end': 1.0.0
@@ -9046,6 +9046,8 @@ snapshots:
       '@plugin-light/vite-plugin-export-default-in-vue': 1.0.0
       '@plugin-light/vite-plugin-gen-version': 1.0.1
       '@plugin-light/vite-plugin-ifdef': 1.0.0
+      '@tdesign/uniapp': 0.7.3
+      '@tdesign/uniapp-chat': 0.2.1
       '@vitejs/plugin-basic-ssl': 1.2.0(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))
       '@vitejs/plugin-legacy': 5.4.3(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))
       '@vitejs/plugin-vue': 4.6.2(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
@@ -9105,6 +9107,24 @@ snapshots:
       '@plugin-light/shared': 1.0.24
       loader-utils: 2.0.4
       vue-template-compiler: 2.6.14
+    transitivePeerDependencies:
+      - debug
+      - supports-color
+
+  '@plugin-light/shared@1.0.20':
+    dependencies:
+      '@plugin-light/const': 0.1.6
+      '@tdesign/uniapp': 0.7.3
+      '@tdesign/uniapp-chat': 0.2.1
+      axios: 1.13.1(debug@4.4.0)
+      croner: 9.1.0
+      imapflow: 1.2.10
+      loader-utils: 2.0.4
+      mailparser: 3.9.3
+      t-comm: 3.2.3
+      tinify: 1.8.2
+      turndown: 7.2.2
+      turndown-plugin-gfm: 1.0.2
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -12138,7 +12158,7 @@ snapshots:
       object.entries: 1.1.9
       semver: 6.3.1
 
-  eslint-config-light-vue3@1.0.12(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4))(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(prettier@3.5.3)(typescript@5.5.4):
+  eslint-config-light-vue3@1.0.6(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4))(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(prettier@3.5.3)(typescript@5.5.4):
     dependencies:
       '@babel/core': 7.26.10
       '@babel/eslint-parser': 7.27.0(@babel/core@7.26.10)(eslint@8.57.1)
@@ -12155,7 +12175,7 @@ snapshots:
       eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1)
       eslint-plugin-import: 2.26.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
       eslint-plugin-jest: 26.9.0(@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4)
-      eslint-plugin-light: 1.0.21(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1)
+      eslint-plugin-light: 1.0.16(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1)
       eslint-plugin-prettier: 4.2.1(eslint-config-prettier@8.10.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.5.3)
       eslint-plugin-react: 7.26.1(eslint@8.57.1)
       eslint-plugin-react-hooks: 4.2.0(eslint@8.57.1)
@@ -12170,11 +12190,13 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-config-light@1.5.6(typescript@5.5.4):
+  eslint-config-light@1.5.2(typescript@5.5.4):
     dependencies:
       '@babel/core': 7.26.10
       '@babel/eslint-parser': 7.27.0(@babel/core@7.26.10)(eslint@8.57.1)
       '@babel/preset-react': 7.26.3(@babel/core@7.26.10)
+      '@tdesign/uniapp': 0.7.3
+      '@tdesign/uniapp-chat': 0.2.1
       '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4)
       '@typescript-eslint/parser': 5.62.0(eslint@8.57.1)(typescript@5.5.4)
       '@vue/eslint-config-typescript': 12.0.0(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)(typescript@5.5.4)
@@ -12183,12 +12205,13 @@ snapshots:
       eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1)
       eslint-plugin-import: 2.26.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
       eslint-plugin-jest: 26.9.0(@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4)
-      eslint-plugin-light: 1.0.5(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1)
+      eslint-plugin-light: 1.0.16(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1)
       eslint-plugin-react: 7.26.1(eslint@8.57.1)
       eslint-plugin-react-hooks: 4.2.0(eslint@8.57.1)
       eslint-plugin-vue: 9.14.0(eslint@8.57.1)
       vue-eslint-parser: 9.4.3(eslint@8.57.1)
     transitivePeerDependencies:
+      - debug
       - eslint-import-resolver-webpack
       - jest
       - supports-color
@@ -12363,17 +12386,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-light@1.0.21(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1):
-    dependencies:
-      '@babel/eslint-parser': 7.27.0(@babel/core@7.26.10)(eslint@8.57.1)
-      eslint: 8.57.1
-      minimatch: 10.0.1
-      requireindex: 1.2.0
-      t-comm: 3.2.3
-    transitivePeerDependencies:
-      - debug
-
-  eslint-plugin-light@1.0.22(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1):
+  eslint-plugin-light@1.0.16(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1):
     dependencies:
       '@babel/eslint-parser': 7.27.0(@babel/core@7.26.10)(eslint@8.57.1)
       '@tdesign/uniapp': 0.7.3
@@ -12384,12 +12397,6 @@ snapshots:
       t-comm: 3.2.3
     transitivePeerDependencies:
       - debug
-
-  eslint-plugin-light@1.0.5(@babel/eslint-parser@7.27.0(@babel/core@7.26.10)(eslint@8.57.1))(eslint@8.57.1):
-    dependencies:
-      '@babel/eslint-parser': 7.27.0(@babel/core@7.26.10)(eslint@8.57.1)
-      eslint: 8.57.1
-      requireindex: 1.2.0
 
   eslint-plugin-n@15.7.0(eslint@8.57.1):
     dependencies:
@@ -16015,8 +16022,10 @@ snapshots:
 
   style-search@0.1.0: {}
 
-  stylelint-config-common@1.0.16:
+  stylelint-config-common@1.0.15:
     dependencies:
+      '@tdesign/uniapp': 0.7.3
+      '@tdesign/uniapp-chat': 0.2.1
       stylelint: 13.13.1
       stylelint-order: 4.1.0(stylelint@13.13.1)
       stylelint-scss: 3.21.0(stylelint@13.13.1)
