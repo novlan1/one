@@ -1670,17 +1670,11 @@ packages:
   '@sxzz/popperjs-es@2.11.7':
     resolution: {integrity: sha512-Ccy0NlLkzr0Ex2FKvh2X+OyERHXJ88XJ1MXtsI9y9fGexlaXaVTPzBCRBwIxFkORuOb+uBqeu+RqnpgYTEZRUQ==}
 
-  '@tdesign/uniapp-chat@0.2.1':
-    resolution: {integrity: sha512-ZIZzfFK2wypKtj8iRUlL9Lpi4DB34LttMaspCDClsdpzy9kXo4AV1/P243Ncd1cnglQU68aB+do119r+SsESdg==}
-
   '@tdesign/uniapp-chat@0.2.3':
     resolution: {integrity: sha512-I2PcuUbMZzfWin1seFmkUm8yhoebQMq3I6ewC+2e1s00rMf4mD7/MzS8w94IoZ53PO+UBzFFaBoEXEhQsY5frw==}
 
   '@tdesign/uniapp@0.7.3':
     resolution: {integrity: sha512-9rEClT6bUWwZw5tt+vmNU5rW0jPVJhJlsl8Dxvmmf9iyyLhdk9bGVfz9DeH+R3kykAIft0rz4l2lAjsolpIYkQ==}
-
-  '@tdesign/uniapp@0.8.0':
-    resolution: {integrity: sha512-JEtDkkr5+PtBm5qZ5FzcywTmFFHfmvtchq+95z6lwSDWu3epsqNiuC/BgyvDKsmdTpPuCpncW7DYHvk0F/9N5w==}
 
   '@tdesign/uniapp@0.8.1':
     resolution: {integrity: sha512-zYKIkgulDg4i4h6o+wIbA9kSKM9l6x6RtuvbaQwJ3NjbwbeB573BuwjsiMzjkWpl6AzajX0rEjwFBMgqABKPeA==}
@@ -9009,7 +9003,7 @@ snapshots:
   '@plugin-light/const@0.1.6':
     dependencies:
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.1
+      '@tdesign/uniapp-chat': 0.2.3
 
   '@plugin-light/import-meta-resolve@0.0.2':
     dependencies:
@@ -9020,7 +9014,7 @@ snapshots:
   '@plugin-light/import-meta-resolve@1.0.1-beta.0':
     dependencies:
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.1
+      '@tdesign/uniapp-chat': 0.2.3
       t-comm: 3.2.8
     transitivePeerDependencies:
       - debug
@@ -9153,7 +9147,7 @@ snapshots:
       '@plugin-light/vite-plugin-gen-version': 1.0.1
       '@plugin-light/vite-plugin-ifdef': 1.0.0
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.1
+      '@tdesign/uniapp-chat': 0.2.3
       '@vitejs/plugin-basic-ssl': 1.2.0(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))
       '@vitejs/plugin-legacy': 5.4.3(terser@5.39.0)(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))
       '@vitejs/plugin-vue': 4.6.2(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
@@ -9192,7 +9186,7 @@ snapshots:
       '@plugin-light/webpack-loader-publish': 1.0.0
       '@plugin-light/webpack-plugin-modify-html': 1.0.0
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.1
+      '@tdesign/uniapp-chat': 0.2.3
       filemanager-webpack-plugin: 2.0.5
       prerender-spa-plugin: 3.4.0
       t-comm: 3.2.8
@@ -9221,7 +9215,7 @@ snapshots:
     dependencies:
       '@plugin-light/const': 0.1.6
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.1
+      '@tdesign/uniapp-chat': 0.2.3
       axios: 1.13.1(debug@4.4.0)
       croner: 9.1.0
       imapflow: 1.2.10
@@ -9239,7 +9233,7 @@ snapshots:
     dependencies:
       '@plugin-light/const': 0.1.6
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.1
+      '@tdesign/uniapp-chat': 0.2.3
       axios: 1.13.1(debug@4.4.0)
       croner: 9.1.0
       imapflow: 1.2.10
@@ -9854,18 +9848,18 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@stylelint/postcss-css-in-js@0.37.3(postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39))(postcss@7.0.39)':
+  '@stylelint/postcss-css-in-js@0.37.3(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39)':
     dependencies:
       '@babel/core': 7.26.10
       postcss: 7.0.39
-      postcss-syntax: 0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
+      postcss-syntax: 0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
     transitivePeerDependencies:
       - supports-color
 
-  '@stylelint/postcss-markdown@0.36.2(postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39))(postcss@7.0.39)':
+  '@stylelint/postcss-markdown@0.36.2(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39)':
     dependencies:
       postcss: 7.0.39
-      postcss-syntax: 0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
+      postcss-syntax: 0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
       remark: 13.0.0
       unist-util-find-all-after: 3.0.2
     transitivePeerDependencies:
@@ -9888,13 +9882,9 @@ snapshots:
 
   '@sxzz/popperjs-es@2.11.7': {}
 
-  '@tdesign/uniapp-chat@0.2.1': {}
-
   '@tdesign/uniapp-chat@0.2.3': {}
 
   '@tdesign/uniapp@0.7.3': {}
-
-  '@tdesign/uniapp@0.8.0': {}
 
   '@tdesign/uniapp@0.8.1': {}
 
@@ -12285,7 +12275,7 @@ snapshots:
       '@html-eslint/parser': 0.59.0
       '@stylistic/eslint-plugin-jsx': 3.1.0(eslint@8.57.1)
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.1
+      '@tdesign/uniapp-chat': 0.2.3
       '@vue/eslint-config-standard': 8.0.1(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.5.4))(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.26.0)(eslint@8.57.1))(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)
       '@vue/eslint-config-typescript': 12.0.0(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)(typescript@5.5.4)
       eslint: 8.57.1
@@ -12316,7 +12306,7 @@ snapshots:
       '@babel/eslint-parser': 7.27.0(@babel/core@7.26.10)(eslint@8.57.1)
       '@babel/preset-react': 7.26.3(@babel/core@7.26.10)
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.1
+      '@tdesign/uniapp-chat': 0.2.3
       '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.5.4))(eslint@8.57.1)(typescript@5.5.4)
       '@typescript-eslint/parser': 5.62.0(eslint@8.57.1)(typescript@5.5.4)
       '@vue/eslint-config-typescript': 12.0.0(eslint-plugin-vue@9.14.0(eslint@8.57.1))(eslint@8.57.1)(typescript@5.5.4)
@@ -12510,7 +12500,7 @@ snapshots:
     dependencies:
       '@babel/eslint-parser': 7.27.0(@babel/core@7.26.10)(eslint@8.57.1)
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.1
+      '@tdesign/uniapp-chat': 0.2.3
       eslint: 8.57.1
       minimatch: 10.0.1
       requireindex: 1.2.0
@@ -12522,7 +12512,7 @@ snapshots:
     dependencies:
       '@babel/eslint-parser': 7.27.0(@babel/core@7.26.10)(eslint@8.57.1)
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.1
+      '@tdesign/uniapp-chat': 0.2.3
       eslint: 8.57.1
       minimatch: 10.0.1
       requireindex: 1.2.0
@@ -15006,7 +14996,7 @@ snapshots:
     dependencies:
       htmlparser2: 3.10.1
       postcss: 7.0.39
-      postcss-syntax: 0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
+      postcss-syntax: 0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
 
   postcss-html@1.6.0:
     dependencies:
@@ -15087,7 +15077,7 @@ snapshots:
       lodash: 4.17.21
       postcss: 7.0.39
 
-  postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39):
+  postcss-syntax@0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39):
     dependencies:
       postcss: 7.0.39
     optionalDependencies:
@@ -15195,7 +15185,7 @@ snapshots:
 
   press-tdesign-vue-next@1.0.31(tdesign-vue-next@1.11.5(vue@3.5.13(typescript@5.5.4))):
     dependencies:
-      '@tdesign/uniapp': 0.8.0
+      '@tdesign/uniapp': 0.8.1
       axios: 1.13.1(debug@4.4.0)
       prismjs: 1.30.0
       t-comm: 3.2.8
@@ -16164,7 +16154,7 @@ snapshots:
   stylelint-config-common@1.0.15:
     dependencies:
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.1
+      '@tdesign/uniapp-chat': 0.2.3
       stylelint: 13.13.1
       stylelint-order: 4.1.0(stylelint@13.13.1)
       stylelint-scss: 3.21.0(stylelint@13.13.1)
@@ -16203,8 +16193,8 @@ snapshots:
 
   stylelint@13.13.1:
     dependencies:
-      '@stylelint/postcss-css-in-js': 0.37.3(postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39))(postcss@7.0.39)
-      '@stylelint/postcss-markdown': 0.36.2(postcss-syntax@0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39))(postcss@7.0.39)
+      '@stylelint/postcss-css-in-js': 0.37.3(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39)
+      '@stylelint/postcss-markdown': 0.36.2(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39)
       autoprefixer: 9.8.8
       balanced-match: 2.0.0
       chalk: 4.1.2
@@ -16238,7 +16228,7 @@ snapshots:
       postcss-sass: 0.4.4
       postcss-scss: 2.1.1
       postcss-selector-parser: 6.1.2
-      postcss-syntax: 0.36.2(postcss-html@0.36.0(postcss-syntax@0.36.2(postcss-html@1.6.0)(postcss-scss@4.0.9(postcss@8.4.49))(postcss@8.4.49))(postcss@7.0.39))(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
+      postcss-syntax: 0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)
       postcss-value-parser: 4.2.0
       resolve-from: 5.0.0
       slash: 3.0.0
@@ -16395,7 +16385,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.27.0
       '@tdesign/uniapp': 0.7.3
-      '@tdesign/uniapp-chat': 0.2.1
+      '@tdesign/uniapp-chat': 0.2.3
       axios: 1.13.1(debug@4.4.0)
       cheerio: 1.0.0
       commander: 10.0.1
