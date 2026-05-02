@@ -66,8 +66,8 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1
       t-comm:
-        specifier: ^3.2.8
-        version: 3.2.8
+        specifier: ^3.2.20
+        version: 3.2.20
       tdesign-icons-vue-next:
         specifier: ^0.3.5
         version: 0.3.5(vue@3.5.13(typescript@5.5.4))
@@ -7001,8 +7001,8 @@ packages:
     resolution: {integrity: sha512-eXIcnzTgX0Ow4lAbiYdaKeUurBNkgADObqpFyKT3u7QRsZokB6QzdKlzquZBFlRTBFflWkmOfGqN6ccDkxvmGQ==}
     hasBin: true
 
-  t-comm@3.2.8:
-    resolution: {integrity: sha512-yvPKOdo8qEEffTCyrWyhsRo0Lv/flnFN1q1tm/f07yJbE67UkDDznwblCfTzf3xuBYCoj7oJm1hoeevkfUVvqA==}
+  t-comm@3.2.20:
+    resolution: {integrity: sha512-ycemB9AZCuayFnYpwxdJxVt0RhCljp3l7xpuAzfFrzRYhl4/aYg2w3AnICXdkreXU5kFILSXwp8hNSo57/MvyA==}
     hasBin: true
 
   table@6.9.0:
@@ -9021,7 +9021,7 @@ snapshots:
     dependencies:
       '@tdesign/uniapp': 0.7.3
       '@tdesign/uniapp-chat': 0.2.3
-      t-comm: 3.2.8
+      t-comm: 3.2.20
     transitivePeerDependencies:
       - debug
 
@@ -9076,7 +9076,7 @@ snapshots:
       rollup-plugin-esbuild: 6.2.1(esbuild@0.25.2)(rollup@2.79.2)
       rollup-plugin-external-globals: 0.13.0(rollup@2.79.2)
       rollup-plugin-visualizer: 5.14.0(rollup@2.79.2)
-      t-comm: 3.2.8
+      t-comm: 3.2.20
       tailwindcss: 3.4.17
       vite: 6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1)
       vite-plugin-commonjs: 0.10.4
@@ -9128,7 +9128,7 @@ snapshots:
       chalk: 4.1.2
       progress-bar-webpack-plugin: 2.1.0(webpack@4.47.0)
       script-ext-html-webpack-plugin: 2.1.5(html-webpack-plugin@4.5.2(webpack@4.47.0))(webpack@4.47.0)
-      t-comm: 3.2.8
+      t-comm: 3.2.20
       uni-read-pages: 1.0.5
       webpack-bundle-analyzer: 3.9.0
       workbox-webpack-plugin: 6.6.0(webpack@4.47.0)
@@ -9159,7 +9159,7 @@ snapshots:
       '@vitejs/plugin-vue': 4.6.2(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
       '@vitejs/plugin-vue-jsx': 3.1.0(vite@6.3.1(@types/node@22.14.1)(jiti@2.4.2)(sugarss@2.0.0)(terser@5.39.0)(yaml@2.7.1))(vue@3.5.13(typescript@5.5.4))
       rollup-plugin-visualizer: 5.14.0(rollup@2.79.2)
-      t-comm: 3.2.8
+      t-comm: 3.2.20
       unplugin-auto-import: 0.18.6(@vueuse/core@9.13.0(vue@3.5.13(typescript@5.5.4)))(rollup@2.79.2)
       unplugin-vue-components: 0.27.5(@babel/parser@7.27.1)(rollup@2.79.2)(vue@3.5.13(typescript@5.5.4))
       vite-plugin-cdn-import: 0.3.5(rollup@2.79.2)
@@ -9195,7 +9195,7 @@ snapshots:
       '@tdesign/uniapp-chat': 0.2.3
       filemanager-webpack-plugin: 2.0.5
       prerender-spa-plugin: 3.4.0
-      t-comm: 3.2.8
+      t-comm: 3.2.20
       webpack-bundle-analyzer: 3.9.0
       webpack-hooks-shellscripts: 1.0.2
       workbox-webpack-plugin: 6.6.0(webpack@4.47.0)
@@ -9227,7 +9227,7 @@ snapshots:
       imapflow: 1.2.10
       loader-utils: 2.0.4
       mailparser: 3.9.3
-      t-comm: 3.2.8
+      t-comm: 3.2.20
       tinify: 1.8.2
       turndown: 7.2.2
       turndown-plugin-gfm: 1.0.2
@@ -9245,7 +9245,7 @@ snapshots:
       imapflow: 1.2.10
       loader-utils: 2.0.4
       mailparser: 3.9.3
-      t-comm: 3.2.8
+      t-comm: 3.2.20
       tinify: 1.8.2
       turndown: 7.2.2
       turndown-plugin-gfm: 1.0.2
@@ -9406,7 +9406,7 @@ snapshots:
       '@plugin-light/shared': 1.0.20
       '@plugin-light/shared-vue2': 1.0.1(vue-template-compiler@2.6.14)
       loader-utils: 2.0.4
-      t-comm: 3.2.8
+      t-comm: 3.2.20
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -12510,7 +12510,7 @@ snapshots:
       eslint: 8.57.1
       minimatch: 10.0.1
       requireindex: 1.2.0
-      t-comm: 3.2.8
+      t-comm: 3.2.20
     transitivePeerDependencies:
       - debug
 
@@ -12522,7 +12522,7 @@ snapshots:
       eslint: 8.57.1
       minimatch: 10.0.1
       requireindex: 1.2.0
-      t-comm: 3.2.8
+      t-comm: 3.2.20
     transitivePeerDependencies:
       - debug
 
@@ -14512,7 +14512,7 @@ snapshots:
       fs-extra: 11.3.0
       log-symbols: 4.1.0
       rimraf: 5.0.10
-      t-comm: 3.2.8
+      t-comm: 3.2.20
     transitivePeerDependencies:
       - debug
 
@@ -15181,7 +15181,7 @@ snapshots:
       '@tdesign/uniapp': 0.8.1
       '@tdesign/uniapp-chat': 0.2.3
       press-ui: 5.0.28
-      t-comm: 3.2.8
+      t-comm: 3.2.20
     transitivePeerDependencies:
       - debug
 
@@ -15194,7 +15194,7 @@ snapshots:
       '@tdesign/uniapp': 0.8.1
       axios: 1.13.1(debug@4.4.0)
       prismjs: 1.30.0
-      t-comm: 3.2.8
+      t-comm: 3.2.20
       tdesign-uniapp: 0.3.2
       tdesign-uniapp-chat: 0.1.3
       tdesign-vue-next: 1.11.5(vue@3.5.13(typescript@5.5.4))
@@ -15836,7 +15836,7 @@ snapshots:
 
   share-light@1.0.3:
     dependencies:
-      t-comm: 3.2.8
+      t-comm: 3.2.20
     transitivePeerDependencies:
       - debug
 
@@ -16387,7 +16387,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  t-comm@3.2.8:
+  t-comm@3.2.20:
     dependencies:
       '@babel/runtime': 7.27.0
       '@tdesign/uniapp': 0.7.3
