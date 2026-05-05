@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    # UTC 时间，并非北京时间
+    # UTC 0,4,6,23 点 = 北京时间 8,12,14,7 点
     - cron: '0 0,4,6,23 * * *'
 
 jobs:
@@ -40,6 +40,7 @@ jobs:
       - name: 'Check for changes'
         id: check_changes
         run: |
+          git checkout -- pnpm-lock.yaml 2>/dev/null || true
           if git diff --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
