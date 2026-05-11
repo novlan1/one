@@ -29,7 +29,7 @@ jobs:
         run: npm install -g pnpm@9
 
       - name: Install Dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
 
       - name: Extra Install
         run: pnpm run extra:install
