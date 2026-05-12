@@ -92,31 +92,31 @@ async function main() {
   const max = lastLinkIndex + MORE_VOL_NUM[1];
   const urlList = [];
 
-  for (let i = min; i < max; i++) {
+  for (let i = min; i < max;i++) {
     urlList.push({
       url: `${ONE_PREFIX}${i}`,
       linkIndex: i,
     });
   }
 
-  console.log('>>> urlList length:', urlList.length);
+  console.log('>>> urlList:\n', urlList);
 
-  // 分批并发请求，每批 20 个
-  const BATCH_SIZE = 20;
-  for (let i = 0; i < urlList.length; i += BATCH_SIZE) {
-    const batch = urlList.slice(i, i + BATCH_SIZE);
-    const results = await Promise.allSettled(batch.map(item => fetchRawText(item)));
 
-    for (const result of results) {
-      if (result.status === 'fulfilled' && result.value.vol === lastVol + 1) {
-        console.log('>>> Found next vol:\n', result.value);
-        updateOneDataJson(result.value);
-        return;
+  for (const item of urlList) {
+    const { url, linkIndex } = item;
+
+    try {
+      const result = await fetchRawText({ url, linkIndex });
+
+      if (result.vol === lastVol + 1) {
+        console.log('>>> Found next vol:\n', result);
+        updateOneDataJson(result);
+        break;
       }
+    } catch (e) {
+
     }
   }
-
-  console.log('>>> Not found next vol in range');
 }
 
 
