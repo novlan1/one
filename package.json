@@ -15,8 +15,8 @@
     "extra:install": "bash script/extra-install.sh"
   },
   "dependencies": {
-    "@tdesign/uniapp": "^0.9.0",
-    "@tdesign/uniapp-chat": "^0.2.3",
+    "@tdesign/uniapp": "^0.9.1",
+    "@tdesign/uniapp-chat": "^0.2.4",
     "axios": "^1.8.4",
     "cheerio": "^1.0.0",
     "ebus-light": "^1.0.0",
