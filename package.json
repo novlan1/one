@@ -45,7 +45,7 @@
   "devDependencies": {
     "@plugin-light/import-meta-resolve": "1.0.1-beta.0",
     "@plugin-light/preprocess": "^1.0.0",
-    "@plugin-light/project-config-uni-vite": "^1.0.4",
+    "@plugin-light/project-config-uni-vite": "^1.1.0",
     "@plugin-light/project-config-uni-vue": "^1.0.1",
     "@plugin-light/project-config-vite": "^1.0.9",
     "@plugin-light/project-config-vue": "^1.0.2",
